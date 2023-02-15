@@ -1,0 +1,29 @@
+.gb-container.container-demo-v1 {
+	outline-style: dashed;
+	outline-color: #ccc;
+}
+
+.gb-container.container-demo-v1 .container-demosummary {
+	@apply text-small;
+	color: #ccc;
+	margin-bottom: 0;
+	padding: 0.5rem;
+	border-bottom: 1px dotted #ccc;
+}
+
+.container-demo-v1 .wp-block-group.container-demoinfo {
+	@apply text-small;
+	color: #ccc;
+	margin-bottom: 0;
+	padding: 0.5rem;
+	border-bottom: 1px dotted #ccc;	
+}
+.container-demo-v1 .wp-block-group.container-demoinfo .wp-block-group__inner-container {
+	padding: 0;
+}
+.container-demo-v1 .wp-block-group.container-demoinfo p {
+	margin-bottom: 0.25rem;
+}
+.container-demo-v1 .wp-block-group.container-demoinfo p:last-child {
+	margin-bottom: 0;
+}

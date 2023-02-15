@@ -1,0 +1,22 @@
+@import "tailwindcss/base";
+
+@import "gp-styleinfo";
+@import "variables";
+@import "setup-fontslocal";
+@import "gp-container";
+@import "setup-gutenberg";
+@import "setup-selector-font";
+@import "setup-selector-text";
+@import "setup-selector-color";
+@import "setup-selector-position";
+@import "setup-selector-lead";
+@import "setup-selector-space";
+@import "setup-selector-margin";
+@import "setup-selector-padding";
+@import "setup-selector-container";
+@import "setup-selector-grid";
+@import "setup-selector-column";
+@import "setup-selector-shadow";
+@import "setup-selector-tooltip";
+@import "setup-custom";
+@import "setup-guide";

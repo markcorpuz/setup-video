@@ -1,0 +1,93 @@
+.text-main {
+	color: var(--main-color);
+}
+.text-link {
+	color: var(--link-color);
+}
+.text-hover {
+	color: var(--hover-color);
+}
+
+.text-black {
+	color: var(--black-color);
+}
+.text-darkest {
+	color: var(--darkest-color);
+}
+.text-darker {
+	color: var(--darker-color);
+}
+.text-dark {
+	color: var(--dark-color);
+}
+.text-mid {
+	color: var(--mid-color);
+}
+.text-light {
+	color: var(--light-color);
+}
+.text-lighter {
+	color: var(--lighter-color);
+}
+.text-lightest {
+	color: var(--lightest-color);
+}
+.text-lightest2x {
+	color: var(--lightest2x-color);
+}
+.text-lightest3x {
+	color: var(--lightest3x-color);
+}
+.text-lightest4x {
+	color: var(--lightest4x-color);
+}
+.text-white {
+	color: var(--white-color);
+}
+
+.bg-main {
+	background-color: var(--main-color);
+}
+.bg-link {
+	background-color: var(--link-color);
+}
+.bg-hover {
+	background-color: var(--hover-color);
+}
+
+.bg-black {
+	background-color: var(--black-color);
+}
+.bg-darkest {
+	background-color: var(--darkest-color);
+}
+.bg-darker {
+	background-color: var(--darker-color);
+}
+.bg-dark {
+	background-color: var(--dark-color);
+}
+.bg-mid {
+	background-color: var(--mid-color);
+}
+.bg-light {
+	background-color: var(--light-color);
+}
+.bg-lighter {
+	background-color: var(--lighter-color);
+}
+.bg-lightest {
+	background-color: var(--lightest-color);
+}
+.bg-lightest2x {
+	background-color: var(--lightest2x-color);
+}
+.bg-lightest3x {
+	background-color: var(--lightest3x-color);
+}
+.bg-lightest4x {
+	background-color: var(--lightest4x-color);
+}
+.bg-white {
+	background-color: var(--white-color);
+}

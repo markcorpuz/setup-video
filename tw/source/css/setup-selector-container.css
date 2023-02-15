@@ -1,0 +1,171 @@
+.container-edges {
+	@apply pr-edges pl-edges;
+}
+
+.container-v1 {
+	@apply 
+		pr-medium2x smallscreen:pr-medium3x mediumxscreen:pr-large pl-medium2x smallscreen:pl-medium3x mediumxscreen:pl-large
+		pt-larger smallscreen:pt-largest mediumxscreen:pt-huge pb-larger smallscreen:pb-largest mediumxscreen:pb-huge;
+}
+
+.container-fullscreen {
+	height: 100vh;
+	margin-left  : calc( -100vw / 2 + 100% / 2 );
+	margin-right : calc( -100vw / 2 + 100% / 2 );
+}
+
+.nocontainer {
+	@apply p-0
+}
+.container-px {
+	@apply p-px;
+}
+.container-2px {
+	@apply p-2px;
+}
+.container-5px {
+	@apply p-5px;
+}
+.container-tiny {
+	@apply p-tiny;
+}
+.container-smaller {
+	@apply p-smaller;
+}
+.container-small {
+	@apply p-small;
+}
+.container-base {
+	@apply p-base;
+}
+.container-main {
+	@apply p-main;
+}
+.container-medium {
+	@apply p-main smallscreen:p-medium;
+}
+.container-medium2x {
+	@apply p-medium smallscreen:p-medium2x;
+}
+.container-medium3x {
+	@apply p-medium smallscreen:p-medium2x mediumxscreen:p-medium3x;
+}
+.container-medium4x {
+	@apply p-medium smallscreen:p-medium2x mediumxscreen:p-medium3x largexscreen:p-medium4x;
+}
+.container-large {
+	@apply p-medium2x smallscreen:p-medium3x mediumxscreen:p-medium4x largexscreen:p-large;
+}
+.container-larger {
+	@apply p-medium3x smallscreen:p-medium4x mediumxscreen:p-largest largexscreen:p-larger;
+}
+.container-largest {
+	@apply p-medium4x smallscreen:p-large mediumxscreen:p-larger largexscreen:p-largest;
+}
+.container-huge {
+	@apply p-large smallscreen:p-larger mediumxscreen:p-largest largexscreen:p-huge;
+}
+.container-huge2x {
+	@apply p-larger smallscreen:p-largest mediumxscreen:p-huge largexscreen:p-huge2x;
+}
+.container-gigantic {
+	@apply p-largest smallscreen:p-huge mediumxscreen:p-huge2x largexscreen:p-gigantic;
+}
+
+.nocontainerx {
+	@apply pr-0 pl-0;
+}
+.containerx-tiny {
+	@apply pr-tiny pl-tiny;
+}
+.containerx-smaller {
+	@apply pr-smaller pl-smaller;
+}
+.containerx-small {
+	@apply pr-small pl-small;
+}
+.containerx-base {
+	@apply pr-base pl-base;
+}
+.containerx-main {
+	@apply pr-main pl-main;
+}
+.containerx-medium {
+	@apply pr-main smallscreen:pr-medium pl-main smallscreen:pl-medium;
+}
+.containerx-medium2x {
+	@apply pr-medium smallscreen:pr-medium2x pl-medium smallscreen:pl-medium2x;
+}
+.containerx-medium3x {
+	@apply pr-medium smallscreen:pr-medium2x mediumxscreen:pl-medium3x pl-medium smallscreen:pl-medium2x mediumxscreen:pl-medium3x;
+}
+.containerx-medium4x {
+	@apply pr-medium smallscreen:pr-medium2x mediumxscreen:pr-medium3x largexscreen:pr-medium4x pl-medium smallscreen:pl-medium2x mediumxscreen:pl-medium3x largexscreen:pl-medium4x;
+}
+.containerx-large {
+	@apply pr-medium2x smallscreen:pr-medium3x mediumxscreen:pr-medium4x largexscreen:pr-large pl-medium2x smallscreen:pl-medium3x mediumxscreen:pl-medium4x largexscreen:pl-large;
+}
+.containerx-larger {
+	@apply pr-medium3x smallscreen:pr-medium4x mediumxscreen:pr-largest largexscreen:pr-larger pl-medium3x smallscreen:pl-medium4x mediumxscreen:pl-largest largexscreen:pl-larger;
+}
+.containerx-largest {
+	@apply pr-medium4x smallscreen:pr-large mediumxscreen:pr-larger largexscreen:pr-largest pl-medium4x smallscreen:pl-large mediumxscreen:pl-larger largexscreen:pl-largest;
+}
+.containerx-huge {
+	@apply pr-large smallscreen:pr-larger mediumxscreen:pr-largest largexscreen:pr-huge pl-large smallscreen:pl-larger mediumxscreen:pl-largest largexscreen:pl-huge;
+}
+.containerx-huge2x {
+	@apply pr-larger smallscreen:pr-largest mediumxscreen:pr-huge largexscreen:pr-huge2x pl-larger smallscreen:pl-largest mediumxscreen:pl-huge largexscreen:pl-huge2x;
+}
+.containerx-gigantic {
+	@apply pr-largest smallscreen:pr-huge mediumxscreen:pr-huge2x largexscreen:pr-gigantic pl-largest smallscreen:pl-huge mediumxscreen:pl-huge2x largexscreen:pl-gigantic;
+}
+
+.nocontainery {
+	@apply pt-0 pb-0;
+}
+.containery-tiny {
+	@apply pt-tiny pb-tiny;
+}
+.containery-smaller {
+	@apply pt-smaller pb-smaller;
+}
+.containery-small {
+	@apply pt-small pb-small;
+}
+.containery-base {
+	@apply pt-base pb-base;
+}
+.containery-main {
+	@apply pt-main pb-main;
+}
+.containery-medium {
+	@apply pt-main smallscreen:pt-medium pb-main smallscreen:pb-medium;
+}
+.containery-medium2x {
+	@apply pt-medium smallscreen:pt-medium2x pb-medium smallscreen:pb-medium2x;
+}
+.containery-medium3x {
+	@apply pt-medium smallscreen:pt-medium2x mediumxscreen:pb-medium3x pb-medium smallscreen:pb-medium2x mediumxscreen:pb-medium3x;
+}
+.containery-medium4x {
+	@apply pt-medium smallscreen:pt-medium2x mediumxscreen:pt-medium3x largexscreen:pt-medium4x pb-medium smallscreen:pb-medium2x mediumxscreen:pb-medium3x largexscreen:pb-medium4x;
+}
+.containery-large {
+	@apply pt-medium2x smallscreen:pt-medium3x mediumxscreen:pt-medium4x largexscreen:pt-large pb-medium2x smallscreen:pb-medium3x mediumxscreen:pb-medium4x largexscreen:pb-large;
+}
+.containery-larger {
+	@apply pt-medium3x smallscreen:pt-medium4x mediumxscreen:pt-largest largexscreen:pt-larger pb-medium3x smallscreen:pb-medium4x mediumxscreen:pb-largest largexscreen:pb-larger;
+}
+.containery-largest {
+	@apply pt-medium4x smallscreen:pt-large mediumxscreen:pt-larger largexscreen:pt-largest pb-medium4x smallscreen:pb-large mediumxscreen:pb-larger largexscreen:pb-largest;
+}
+.containery-huge {
+	@apply pt-large smallscreen:pt-larger mediumxscreen:pt-largest largexscreen:pt-huge pb-large smallscreen:pb-larger mediumxscreen:pb-largest largexscreen:pb-huge;
+}
+.containery-huge2x {
+	@apply pt-larger smallscreen:pt-largest mediumxscreen:pt-huge largexscreen:pt-huge2x pb-larger smallscreen:pb-largest mediumxscreen:pb-huge largexscreen:pb-huge2x;
+}
+.containery-gigantic {
+	@apply pt-largest smallscreen:pt-huge mediumxscreen:pt-huge2x largexscreen:pt-gigantic pb-largest smallscreen:pb-huge mediumxscreen:pb-huge2x largexscreen:pb-gigantic;
+}

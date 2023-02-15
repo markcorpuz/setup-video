@@ -1,0 +1,78 @@
+:root {
+  --main-color: #555555;
+
+  --link-color: #666666;
+  --hover-color: #000000;
+  --active-color: #000000;
+
+  --btn-color: #666666;
+  --btnlink-color: #666666;
+  --btnhover-color: #000000;
+  --btnactive-color: #000000;
+
+  --heading-color: #555555;
+  --heading-link-color: #777777;
+  --heading-hover-color: #555555;
+
+  --meta-color: #999999;
+  --meta-link-color: #777777;
+  --meta-hover-color: #555555;
+
+  --menu-color: #555555;
+  --menu-link-color: #666666;
+  --menu-hover-color: #444444;
+
+  --line-color: #555555;
+
+  --black-color: #000000;
+  --darkest-color: #0C0C0C;
+  --darker-color: #191919;
+  --dark-color: #333333;
+  --mid3x-color: #444444;
+  --mid2x-color: #555555;
+  --mid-color: #666666;
+  --light-color: #999999;
+  --lighter-color: #cccccc;
+  --lightest-color: #e5e5e5;
+  --lightest2x-color: #efefef;
+  --lightest3x-color: #f0f0f0;
+  --lightest4x-color: #f9f9f9;
+  --white-color: #ffffff;
+
+  --line-borderwidth: 1px;
+
+  --width-tiny: 20rem;
+  --width-small: 32rem;
+  --width-medium: 48rem;
+  --width-mediumx: 49rem;
+  --width-large: 64rem;
+  --width-largex: 65rem;
+  --width-larger: 75rem;
+
+  --width-mobile: 48rem;
+  --width-tablet: 64rem;
+  --width-desktop: 80rem;
+
+  --shadow-inner-top: inset 0px 100px 20px -100px rgba(0,0,0,0.15);
+  --shadow-inner-dark-top: inset 0px 100px 40px -100px rgba(0,0,0,0.25);
+  --shadow-inner-darker-top: inset 0px 100px 60px -100px rgba(0,0,0,0.5);
+  --shadow-inner-bottom: inset 0px -100px 20px -100px rgba(0,0,0,0.15);
+  --shadow-inner-dark-bottom: inset 0px -100px 40px -100px rgba(0,0,0,0.25);
+  --shadow-inner-darker-bottom: inset 0px -100px 60px -100px rgba(0,0,0,0.5);
+
+  --shadow-outer-lighter: 2px 2px 4px 0px rgba(0,0,0,0.15);
+  --shadow-outer-light: 3px 3px 8px 0px rgba(0,0,0,0.15);
+  --shadow-outer: 5px 5px 20px 0px rgba(0,0,0,0.25);
+  --shadow-outer-dark: 5px 5px 20px 0px rgba(0,0,0,0.5);
+  --shadow-outer-darker: 5px 5px 20px 0px rgba(0,0,0,0.75);
+
+  --shadow-edge-top: 0 -8px 6px -6px rgba(0,0,0,0.25);
+  --shadow-edge-dark-top: 0 -8px 6px -6px rgba(0,0,0,0.5);
+  --shadow-edge-darker-top: 0 -8px 6px -6px rgba(0,0,0,0.75);
+
+  --shadow-edge-bottom: 0 8px 6px -6px rgba(0,0,0,0.25);
+  --shadow-edge-dark-bottom: 0 8px 6px -6px rgba(0,0,0,0.5);
+  --shadow-edge-darker-bottom: 0 8px 6px -6px rgba(0,0,0,0.75);
+
+  --shadow-floater: 0px 0px 60px 0px rgba(85,85,85,0.12);
+}

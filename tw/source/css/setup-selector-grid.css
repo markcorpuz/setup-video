@@ -1,0 +1,702 @@
+.grid-2columns,
+.grid-3columns,
+.grid-4columns,
+.grid-5columns,
+.grid-6columns,
+.grid-7columns,
+.grid-8columns,
+.grid-9columns,
+.wp-block-group.group-grid-2columns > .wp-block-group__inner-container,
+.wp-block-group.group-grid-3columns > .wp-block-group__inner-container,
+.wp-block-group.group-grid-4columns > .wp-block-group__inner-container,
+.wp-block-group.group-grid-5columns > .wp-block-group__inner-container,
+.wp-block-group.group-grid-6columns > .wp-block-group__inner-container,
+.wp-block-group.group-grid-7columns > .wp-block-group__inner-container,
+.wp-block-group.group-grid-8columns > .wp-block-group__inner-container,
+.wp-block-group.group-grid-9columns > .wp-block-group__inner-container,
+.gb-container.group-grid-2columns > .gb-inside-container,
+.gb-container.group-grid-3columns > .gb-inside-container,
+.gb-container.group-grid-4columns > .gb-inside-container,
+.gb-container.group-grid-5columns > .gb-inside-container,
+.gb-container.group-grid-6columns > .gb-inside-container,
+.gb-container.group-grid-7columns > .gb-inside-container,
+.gb-container.group-grid-8columns > .gb-inside-container,
+.gb-container.group-grid-9columns > .gb-inside-container {
+	@apply
+		grid;
+}
+
+.grid-gap,
+.wp-block-group.group-grid-gap > .wp-block-group__inner-container,
+.gb-container.group-grid-gap > .gb-inside-container {
+	@apply
+		gap-main;
+}
+	.grid-gap-medium,
+	.wp-block-group.group-grid-gap-medium > .wp-block-group__inner-container,
+	.gb-container.group-grid-gap-medium > .gb-inside-container {
+		@apply
+			gap-medium;
+	}
+	.grid-gap-medium2x,
+	.wp-block-group.group-grid-gap-medium2x > .wp-block-group__inner-container,
+	.gb-container.group-grid-gap-medium2x > .gb-inside-container {
+		@apply
+			gap-medium2x;
+	}
+	.grid-gap-medium3x,
+	.wp-block-group.group-grid-gap-medium3x > .wp-block-group__inner-container,
+	.gb-container.group-grid-gap-medium3x > .gb-inside-container {
+		@apply
+			gap-medium3x;
+	}
+	.grid-gap-medium4x,
+	.wp-block-group.group-grid-gap-medium4x > .wp-block-group__inner-container,
+	.gb-container.group-grid-gap-medium4x > .gb-inside-container {
+		@apply
+			gap-medium4x;
+	}
+	.grid-gap-large,
+	.wp-block-group.group-grid-gap-large > .wp-block-group__inner-container,
+	.gb-container.group-grid-gap-large > .gb-inside-container {
+		@apply
+			gap-large;
+	}
+	.grid-gap-larger,
+	.wp-block-group.group-grid-gap-larger > .wp-block-group__inner-container,
+	.gb-container.group-grid-gap-larger > .gb-inside-container {
+		@apply
+			gap-larger;
+	}
+
+.grid-row-gap,
+.wp-block-group.group-grid-row-gap > .wp-block-group__inner-container,
+.gb-container.group-grid-row-gap > .gb-inside-container {
+	@apply
+		gap-y-main;
+}
+	.grid-row-gap-medium,
+	.wp-block-group.group-grid-row-gap-medium > .wp-block-group__inner-container,
+	.gb-container.group-grid-row-gap-medium > .gb-inside-container {
+		@apply
+			gap-y-medium;
+	}
+	.grid-row-gap-medium2x,
+	.wp-block-group.group-grid-row-gap-medium2x > .wp-block-group__inner-container, 
+	.gb-container.group-grid-row-gap-medium2x > .gb-inside-container {
+		@apply
+			gap-y-medium2x;
+	}
+	.grid-row-gap-medium3x,
+	.wp-block-group.group-grid-row-gap-medium3x > .wp-block-group__inner-container, 
+	.gb-container.group-grid-row-gap-medium3x > .gb-inside-container {
+		@apply
+			gap-y-medium3x;
+	}
+	.grid-row-gap-medium4x,
+	.wp-block-group.group-grid-row-gap-medium4x > .wp-block-group__inner-container, 
+	.gb-container.group-grid-row-gap-medium4x > .gb-inside-container {
+		@apply
+			gap-y-medium4x;
+	}
+	.grid-row-gap-large,
+	.wp-block-group.group-grid-row-gap-large > .wp-block-group__inner-container,
+	.gb-container.group-grid-row-gap-large > .gb-inside-container {
+		@apply
+			gap-y-large;
+	}
+	.grid-row-gap-larger,
+	.wp-block-group.group-grid-row-gap-larger > .wp-block-group__inner-container,
+	.gb-container.group-grid-row-gap-larger > .gb-inside-container {
+		@apply
+			gap-y-larger;
+	}
+.grid-column-gap,
+.wp-block-group.group-grid-column-gap > .wp-block-group__inner-container,
+.gb-container.group-grid-column-gap > .gb-inside-container {
+	@apply
+		gap-x-main;
+}
+	.grid-column-gap-medium,
+	.wp-block-group.group-grid-column-gap-medium > .wp-block-group__inner-container,
+	.gb-container.group-grid-column-gap-medium > .gb-inside-container {
+		@apply
+			gap-x-medium;
+	}
+	.grid-column-gap-medium2x,
+	.wp-block-group.group-grid-column-gap-medium2x > .wp-block-group__inner-container,
+	.gb-container.group-grid-column-gap-medium2x > .gb-inside-container {
+		@apply
+			gap-x-medium2x;
+	}
+	.grid-column-gap-medium3x,
+	.wp-block-group.group-grid-column-gap-medium3x > .wp-block-group__inner-container,
+	.gb-container.group-grid-column-gap-medium3x > .gb-inside-container {
+		@apply
+			gap-x-medium3x;
+	}
+	.grid-column-gap-medium4x,
+	.wp-block-group.group-grid-column-gap-medium4x > .wp-block-group__inner-container,
+	.gb-container.group-grid-column-gap-medium4x > .gb-inside-container {
+		@apply
+			gap-x-medium4x;
+	}
+	.grid-column-gap-large,
+	.wp-block-group.group-grid-column-gap-large > .wp-block-group__inner-container,
+	.gb-container.group-grid-column-gap-large > .gb-inside-container {
+		@apply
+			gap-x-large;
+	}
+	.grid-column-gap-larger,
+	.gb-container.group-grid-column-gap-larger > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-column-gap-larger > .gb-inside-container {
+		@apply
+			gap-x-larger;
+	}
+
+.grid-2columns,
+.wp-block-group.group-grid-2columns > .wp-block-group__inner-container,
+.gb-container.group-grid-2columns > .gb-inside-container {
+	grid-template-columns: repeat(2, 1fr);
+}
+.grid-3columns,
+.wp-block-group.group-grid-3columns > .wp-block-group__inner-container,
+.gb-container.group-grid-3columns > .gb-inside-container {
+	grid-template-columns: repeat(3, 1fr);
+}
+.grid-4columns,
+.wp-block-group.group-grid-4columns > .wp-block-group__inner-container,
+.gb-container.group-grid-4columns > .gb-inside-container {
+	grid-template-columns: repeat(4, 1fr);
+}
+.grid-5columns,
+.wp-block-group.group-grid-5columns > .wp-block-group__inner-container,
+.gb-container.group-grid-5columns > .gb-inside-container {
+	grid-template-columns: repeat(5, 1fr);
+}
+.grid-6columns,
+.wp-block-group.group-grid-6columns > .wp-block-group__inner-container,
+.gb-container.group-grid-6columns > .gb-inside-container {
+	grid-template-columns: repeat(6, 1fr);
+}
+.grid-7columns,
+.wp-block-group.group-grid-7columns > .wp-block-group__inner-container,
+.gb-container.group-grid-7columns > .gb-inside-container {
+	grid-template-columns: repeat(7, 1fr);
+}
+.grid-8columns,
+.wp-block-group.group-grid-8columns > .wp-block-group__inner-container,
+.gb-container.group-grid-8columns > .gb-inside-container {
+	grid-template-columns: repeat(8, 1fr);
+}
+.grid-9columns,
+.wp-block-group.group-grid-9columns > .wp-block-group__inner-container,
+.gb-container.group-grid-9columns > .gb-inside-container {
+	grid-template-columns: repeat(9, 1fr);
+}
+
+.grid-941,
+.grid-841,
+.grid-741,
+.grid-641,
+.grid-541,
+.grid-441,
+.grid-341,
+.grid-41,
+.grid-931,
+.grid-831,
+.grid-731,
+.grid-631,
+.grid-531,
+.grid-431,
+.grid-331,
+.grid-31,
+.grid-921,
+.grid-821,
+.grid-721,
+.grid-621,
+.grid-521,
+.grid-421,
+.grid-321,
+.grid-21,
+.wp-block-group.group-grid-941 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-841 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-741 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-641 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-541 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-441 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-341 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-41 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-931 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-831 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-731 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-631 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-531 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-431 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-331 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-31 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-921 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-821 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-721 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-621 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-521 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-421 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-321 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-21 > .wp-block-group__inner-container,
+.gb-container.group-grid-941 > .gb-inside-container,
+.gb-container.group-grid-841 > .gb-inside-container,
+.gb-container.group-grid-741 > .gb-inside-container,
+.gb-container.group-grid-641 > .gb-inside-container,
+.gb-container.group-grid-541 > .gb-inside-container,
+.gb-container.group-grid-441 > .gb-inside-container,
+.gb-container.group-grid-341 > .gb-inside-container,
+.gb-container.group-grid-41 > .gb-inside-container,
+.gb-container.group-grid-931 > .gb-inside-container,
+.gb-container.group-grid-831 > .gb-inside-container,
+.gb-container.group-grid-731 > .gb-inside-container,
+.gb-container.group-grid-631 > .gb-inside-container,
+.gb-container.group-grid-531 > .gb-inside-container,
+.gb-container.group-grid-431 > .gb-inside-container,
+.gb-container.group-grid-331 > .gb-inside-container,
+.gb-container.group-grid-31 > .gb-inside-container,
+.gb-container.group-grid-921 > .gb-inside-container,
+.gb-container.group-grid-821 > .gb-inside-container,
+.gb-container.group-grid-721 > .gb-inside-container,
+.gb-container.group-grid-621 > .gb-inside-container,
+.gb-container.group-grid-521 > .gb-inside-container,
+.gb-container.group-grid-421 > .gb-inside-container,
+.gb-container.group-grid-321 > .gb-inside-container,
+.gb-container.group-grid-21 > .gb-inside-container {
+	grid-template-columns: 1fr;
+}
+
+.grid-942,
+.grid-842,
+.grid-742,
+.grid-642,
+.grid-542,
+.grid-442,
+.grid-342,
+.grid-42,
+.grid-932,
+.grid-832,
+.grid-732,
+.grid-632,
+.grid-532,
+.grid-432,
+.grid-332,
+.grid-32,
+.grid-922,
+.grid-822,
+.grid-722,
+.grid-622,
+.grid-522,
+.grid-422,
+.grid-422,
+.grid-322,
+.wp-block-group.group-grid-942 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-842 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-742 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-642 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-542 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-442 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-342 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-42 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-932 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-832 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-732 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-632 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-532 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-432 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-332 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-32 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-922 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-822 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-722 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-622 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-522 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-422 > .wp-block-group__inner-container,
+.wp-block-group.group-grid-322 > .wp-block-group__inner-container,
+.gb-container.group-grid-942 > .gb-inside-container,
+.gb-container.group-grid-842 > .gb-inside-container,
+.gb-container.group-grid-742 > .gb-inside-container,
+.gb-container.group-grid-642 > .gb-inside-container,
+.gb-container.group-grid-542 > .gb-inside-container,
+.gb-container.group-grid-442 > .gb-inside-container,
+.gb-container.group-grid-342 > .gb-inside-container,
+.gb-container.group-grid-42 > .gb-inside-container,
+.gb-container.group-grid-932 > .gb-inside-container,
+.gb-container.group-grid-832 > .gb-inside-container,
+.gb-container.group-grid-732 > .gb-inside-container,
+.gb-container.group-grid-632 > .gb-inside-container,
+.gb-container.group-grid-532 > .gb-inside-container,
+.gb-container.group-grid-432 > .gb-inside-container,
+.gb-container.group-grid-332 > .gb-inside-container,
+.gb-container.group-grid-32 > .gb-inside-container,
+.gb-container.group-grid-922 > .gb-inside-container,
+.gb-container.group-grid-822 > .gb-inside-container,
+.gb-container.group-grid-722 > .gb-inside-container,
+.gb-container.group-grid-622 > .gb-inside-container,
+.gb-container.group-grid-522 > .gb-inside-container,
+.gb-container.group-grid-422 > .gb-inside-container,
+.gb-container.group-grid-322 > .gb-inside-container {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen(smallscreen) {
+
+	.grid-941,
+	.grid-841,
+	.grid-741,
+	.grid-641,
+	.grid-541,
+	.grid-441,
+	.grid-341,
+	.grid-41,
+	.wp-block-group.group-grid-941 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-841 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-741 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-641 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-541 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-441 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-341 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-41 > .wp-block-group__inner-container,
+	.gb-container.group-grid-941 > .gb-inside-container,
+	.gb-container.group-grid-841 > .gb-inside-container,
+	.gb-container.group-grid-741 > .gb-inside-container,
+	.gb-container.group-grid-641 > .gb-inside-container,
+	.gb-container.group-grid-541 > .gb-inside-container,
+	.gb-container.group-grid-441 > .gb-inside-container,
+	.gb-container.group-grid-341 > .gb-inside-container,
+	.gb-container.group-grid-41 > .gb-inside-container,
+	.grid-942,
+	.grid-842,
+	.grid-742,
+	.grid-642,
+	.grid-542,
+	.grid-442,
+	.grid-342,
+	.grid-42,
+	.wp-block-group.group-grid-942 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-842 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-742 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-642 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-542 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-442 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-342 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-42 > .wp-block-group__inner-container,
+	.gb-container.group-grid-942 > .gb-inside-container,
+	.gb-container.group-grid-842 > .gb-inside-container,
+	.gb-container.group-grid-742 > .gb-inside-container,
+	.gb-container.group-grid-642 > .gb-inside-container,
+	.gb-container.group-grid-542 > .gb-inside-container,
+	.gb-container.group-grid-442 > .gb-inside-container,
+	.gb-container.group-grid-342 > .gb-inside-container,
+	.gb-container.group-grid-42 > .gb-inside-container {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.grid-931,
+	.grid-831,
+	.grid-731,
+	.grid-631,
+	.grid-531,
+	.grid-431,
+	.grid-331,
+	.grid-31,
+	.wp-block-group.group-grid-931 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-831 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-731 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-631 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-531 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-431 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-331 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-31 > .wp-block-group__inner-container,
+	.gb-container.group-grid-931 > .gb-inside-container,
+	.gb-container.group-grid-831 > .gb-inside-container,
+	.gb-container.group-grid-731 > .gb-inside-container,
+	.gb-container.group-grid-631 > .gb-inside-container,
+	.gb-container.group-grid-531 > .gb-inside-container,
+	.gb-container.group-grid-431 > .gb-inside-container,
+	.gb-container.group-grid-331 > .gb-inside-container,
+	.gb-container.group-grid-31 > .gb-inside-container,
+	.grid-932,
+	.grid-832,
+	.grid-732,
+	.grid-632,
+	.grid-532,
+	.grid-432,
+	.grid-332,
+	.grid-32,
+	.wp-block-group.group-grid-932 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-832 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-732 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-632 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-532 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-432 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-332 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-32 > .wp-block-group__inner-container,
+	.gb-container.group-grid-932 > .gb-inside-container,
+	.gb-container.group-grid-832 > .gb-inside-container,
+	.gb-container.group-grid-732 > .gb-inside-container,
+	.gb-container.group-grid-632 > .gb-inside-container,
+	.gb-container.group-grid-532 > .gb-inside-container,
+	.gb-container.group-grid-432 > .gb-inside-container,
+	.gb-container.group-grid-332 > .gb-inside-container,
+	.gb-container.group-grid-32 > .gb-inside-container {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.grid-921,
+	.grid-821,
+	.grid-721,
+	.grid-621,
+	.grid-521,
+	.grid-421,
+	.grid-321,
+	.grid-21,
+	.wp-block-group.group-grid-921 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-821 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-721 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-621 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-521 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-421 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-321 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-21 > .wp-block-group__inner-container,
+	.gb-container.group-grid-921 > .gb-inside-container,
+	.gb-container.group-grid-821 > .gb-inside-container,
+	.gb-container.group-grid-721 > .gb-inside-container,
+	.gb-container.group-grid-621 > .gb-inside-container,
+	.gb-container.group-grid-521 > .gb-inside-container,
+	.gb-container.group-grid-421 > .gb-inside-container,
+	.gb-container.group-grid-321 > .gb-inside-container,
+	.gb-container.group-grid-21 > .gb-inside-container,
+	.grid-922,
+	.grid-822,
+	.grid-722,
+	.grid-622,
+	.grid-522,
+	.grid-422,
+	.grid-322,
+	.wp-block-group.group-grid-922 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-822 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-722 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-622 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-522 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-422 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-322 > .wp-block-group__inner-container,
+	.gb-container.group-grid-922 > .gb-inside-container,
+	.gb-container.group-grid-822 > .gb-inside-container,
+	.gb-container.group-grid-722 > .gb-inside-container,
+	.gb-container.group-grid-622 > .gb-inside-container,
+	.gb-container.group-grid-522 > .gb-inside-container,
+	.gb-container.group-grid-422 > .gb-inside-container,
+	.gb-container.group-grid-322 > .gb-inside-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+}
+
+@media screen(mediumxscreen) {
+
+	.grid-942,
+	.grid-941,
+	.grid-932,
+	.grid-931,
+	.grid-922,
+	.grid-921,
+	.wp-block-group.group-grid-942 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-941 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-932 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-931 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-922 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-921 > .wp-block-group__inner-container,
+	.gb-container.group-grid-942 > .gb-inside-container,
+	.gb-container.group-grid-941 > .gb-inside-container,
+	.gb-container.group-grid-932 > .gb-inside-container,
+	.gb-container.group-grid-931 > .gb-inside-container,
+	.gb-container.group-grid-922 > .gb-inside-container,
+	.gb-container.group-grid-921 > .gb-inside-container {
+		grid-template-columns: repeat(9, 1fr);
+	}
+
+	.grid-842,
+	.grid-841,
+	.grid-832,
+	.grid-831,
+	.grid-822,
+	.grid-821,
+	.wp-block-group.group-grid-842 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-841 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-832 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-831 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-822 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-821 > .wp-block-group__inner-container,
+	.gb-container.group-grid-842 > .gb-inside-container,
+	.gb-container.group-grid-841 > .gb-inside-container,
+	.gb-container.group-grid-832 > .gb-inside-container,
+	.gb-container.group-grid-831 > .gb-inside-container,
+	.gb-container.group-grid-822 > .gb-inside-container,
+	.gb-container.group-grid-821 > .gb-inside-container {
+		grid-template-columns: repeat(8, 1fr);
+	}
+
+	.grid-742,
+	.grid-741,
+	.grid-732,
+	.grid-731,
+	.grid-722,
+	.grid-721,
+	.wp-block-group.group-grid-742 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-741 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-732 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-731 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-722 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-721 > .wp-block-group__inner-container,
+	.gb-container.group-grid-742 > .gb-inside-container,
+	.gb-container.group-grid-741 > .gb-inside-container,
+	.gb-container.group-grid-732 > .gb-inside-container,
+	.gb-container.group-grid-731 > .gb-inside-container,
+	.gb-container.group-grid-722 > .gb-inside-container,
+	.gb-container.group-grid-721 > .gb-inside-container {
+		grid-template-columns: repeat(7, 1fr);
+	}
+
+	.grid-642,
+	.grid-641,
+	.grid-632,
+	.grid-631,
+	.grid-622,
+	.grid-621,
+	.wp-block-group.group-grid-642 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-641 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-632 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-631 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-622 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-621 > .wp-block-group__inner-container,
+	.gb-container.group-grid-642 > .gb-inside-container,
+	.gb-container.group-grid-641 > .gb-inside-container,
+	.gb-container.group-grid-632 > .gb-inside-container,
+	.gb-container.group-grid-631 > .gb-inside-container,
+	.gb-container.group-grid-622 > .gb-inside-container,
+	.gb-container.group-grid-621 > .gb-inside-container {
+		grid-template-columns: repeat(6, 1fr);
+	}
+
+	.grid-542,
+	.grid-541,
+	.grid-532,
+	.grid-531,
+	.grid-522,
+	.grid-521,
+	.wp-block-group.group-grid-542 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-541 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-532 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-531 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-522 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-521 > .wp-block-group__inner-container,
+	.gb-container.group-grid-542 > .gb-inside-container,
+	.gb-container.group-grid-541 > .gb-inside-container,
+	.gb-container.group-grid-532 > .gb-inside-container,
+	.gb-container.group-grid-531 > .gb-inside-container,
+	.gb-container.group-grid-522 > .gb-inside-container,
+	.gb-container.group-grid-521 > .gb-inside-container {
+		grid-template-columns: repeat(5, 1fr);
+	}
+
+	.grid-442,
+	.grid-441,
+	.grid-432,
+	.grid-431,
+	.grid-422,
+	.grid-421,
+	.wp-block-group.group-grid-442 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-441 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-432 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-431 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-422 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-421 > .wp-block-group__inner-container,
+	.gb-container.group-grid-442 > .gb-inside-container,
+	.gb-container.group-grid-441 > .gb-inside-container,
+	.gb-container.group-grid-432 > .gb-inside-container,
+	.gb-container.group-grid-431 > .gb-inside-container,
+	.gb-container.group-grid-422 > .gb-inside-container,
+	.gb-container.group-grid-421 > .gb-inside-container {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.grid-342,
+	.grid-341,
+	.grid-332,
+	.grid-331,
+	.grid-322,
+	.grid-321,
+	.wp-block-group.group-grid-342 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-341 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-332 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-331 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-322 > .wp-block-group__inner-container,
+	.wp-block-group.group-grid-321 > .wp-block-group__inner-container,
+	.gb-container.group-grid-342 > .gb-inside-container,
+	.gb-container.group-grid-341 > .gb-inside-container,
+	.gb-container.group-grid-332 > .gb-inside-container,
+	.gb-container.group-grid-331 > .gb-inside-container,
+	.gb-container.group-grid-322 > .gb-inside-container,
+	.gb-container.group-grid-321 > .gb-inside-container {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+}
+
+@media screen(largexscreen) {
+
+	.grid-942,
+	.grid-842,
+	.grid-742,
+	.grid-642,
+	.grid-542,
+	.grid-442,
+	.grid-342,
+	.grid-42,
+	.grid-932,
+	.grid-832,
+	.grid-732,
+	.grid-632,
+	.grid-532,
+	.grid-432,
+	.grid-332,
+	.grid-32,
+	.grid-922,
+	.grid-822,
+	.grid-722,
+	.grid-622,
+	.grid-522,
+	.grid-422,
+	.grid-422,
+	.grid-322,
+	.grid-941,
+	.grid-841,
+	.grid-741,
+	.grid-641,
+	.grid-541,
+	.grid-441,
+	.grid-341,
+	.grid-41,
+	.grid-931,
+	.grid-831,
+	.grid-731,
+	.grid-631,
+	.grid-531,
+	.grid-431,
+	.grid-331,
+	.grid-31,
+	.grid-921,
+	.grid-821,
+	.grid-721,
+	.grid-621,
+	.grid-521,
+	.grid-421,
+	.grid-321,
+	.grid-21 {}
+
+}

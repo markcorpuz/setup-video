@@ -1,0 +1,21 @@
+.main-navigation {}
+
+.inside-header {}
+
+.header-edge .inside-header.grid-container {
+	max-width: none;
+}
+
+.gb-container.alignleft {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.gb-container.alignright {
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.responsivetest {
+	@apply tabletscreen:text-[orange] smallscreen:text-[green] mediumscreen:text-[red] largescreen:text-[blue] largerscreen:text-[purple];
+}

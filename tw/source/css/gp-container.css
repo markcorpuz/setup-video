@@ -1,0 +1,21 @@
+.separate-containers .inside-article, 
+.separate-containers .comments-area, 
+.separate-containers .page-header, 
+.separate-containers .paging-navigation, 
+.one-container .site-content, 
+.inside-page-header {
+
+}
+
+.insidearticle-nopadt.page .inside-article,
+.insidearticle-nopadt.single .inside-article,
+.insidearticle-nopady.page .inside-article,
+.insidearticle-nopady.single .inside-article {
+    padding-top: 0;
+}
+.insidearticle-nopadb.page .inside-article,
+.insidearticle-nopadb.single .inside-article,
+.insidearticle-nopady.page .inside-article,
+.insidearticle-nopady.single .inside-article {
+    padding-bottom: 0;
+}
