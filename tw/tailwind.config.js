@@ -189,7 +189,7 @@ module.exports =
         'mediumwidth':      'var(--width-medium-wgap)',
         // 1024px
         'largewidth':       'var(--width-large)',
-        // 1200px
+        // 1280px
         'largerwidth':      'var(--width-larger)',
       },
       maxWidth: {
@@ -201,21 +201,22 @@ module.exports =
         'mediumwidth':      'var(--width-medium)',
         // 1024px
         'largewidth':       'var(--width-large)',
-        // 1200px
+        // 1280px
         'largerwidth':      'var(--width-larger)',
       },
       screens: {
         'tinyscreen':       '320px',
         'smallscreen':      '512px',
         'mediumscreen':     '768px',
-        'mediumxscreen':    '769px',
+        'mediumxscreen':    '832px',
         'largescreen':      '1024px',
-        'largexscreen':     '1025px',
+        'largexscreen':     '1088px',
         'largerscreen':     '1280px',
 
         'largerxmaxscreen': {'max': '1280px'},
-        'largexmaxscreen':  {'max': '1025px'},
+        'largexmaxscreen':  {'max': '1088px'},
         'largemaxscreen':   {'max': '1024px'},
+        'mediumxmaxscreen': {'max': '832px'},
         'mediummaxscreen':  {'max': '768px'},
         'smallmaxscreen':   {'max': '512px'},
         'tinymaxscreen':    {'max': '320px'},
