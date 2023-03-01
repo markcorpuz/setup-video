@@ -20,47 +20,7 @@ module.exports =
   // 
   theme: {
     extend: {
-      colors: {
-        'main':             'var(--main-color)',
-        'link':             'var(--link-color)',
-        'hover':            'var(--hover-color)',
-        'active':           'var(--hover-color)',
-        'select':           'var(--hover-color)',
-
-        'btn':              'var(--btn-color)',
-        'btnlink':          'var(--btnlink-color)',
-        'btnhover':         'var(--btnhover-color)',
-        'btnactive':        'var(--btnactive-color)',
-
-        'heading':          'var(--heading-color)',
-        'heading-link':     'var(--heading-link-color)',
-        'heading-hover':    'var(--heading-hover-color)',
-
-        'meta':             'var(--meta-color)',
-        'meta-link':        'var(--meta-link-color)',
-        'meta-hover':       'var(--meta-hover-color)',
-
-        'menu':             'var(--menu-color)',
-        'menu-link':        'var(--menu-link-color)',
-        'menu-hover':       'var(--menu-hover-color)',
-
-        'line':             'var(--line-color)',
-
-        'black':            'var(--black-color)',
-        'darkest':          'var(--darkest-color)',
-        'darker':           'var(--darker-color)',
-        'dark':             'var(--dark-color)',
-        'mid3x':            'var(--mid3x-color)',
-        'mid2x':            'var(--mid2x-color)',
-        'mid':              'var(--mid-color)',
-        'light':            'var(--light-color)',
-        'lighter':          'var(--lighter-color)',
-        'lightest':         'var(--lightest-color)',
-        'lightest2x':       'var(--lightest2x-color)',
-        'lightest3x':       'var(--lightest3x-color)',
-        'lightest4x':       'var(--lightest4x-color)',
-        'white':            'var(--white-color)',
-      },
+      colors: {},
       fontFamily: {
         'main':             ["'Source Sans Pro'", "'Roboto'", "'Lato'", 'Helvetica', 'Arial', 'sans-serif'],
         'heading':          ["'Open Sans'", "'Source Sans Pro'", "'Roboto'", "'Lato'", 'Helvetica', 'Arial', 'sans-serif'],

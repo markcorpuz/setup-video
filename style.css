@@ -9,45 +9,27 @@
 */
 
 :root {
-  --main-color: #555555;
+  --main: #555555;
+  --maindm: #f0f0f0;
+  --accent: #1e73be;
+  --accentdm: #d0e5f8;
+  --highlight: #4799e2;
+  --highlightdm: #f2f8fd;
 
-  --link-color: #666666;
-  --hover-color: #000000;
-  --active-color: #000000;
-
-  --btn-color: #666666;
-  --btnlink-color: #666666;
-  --btnhover-color: #000000;
-  --btnactive-color: #000000;
-
-  --heading-color: #555555;
-  --heading-link-color: #777777;
-  --heading-hover-color: #555555;
-
-  --meta-color: #999999;
-  --meta-link-color: #777777;
-  --meta-hover-color: #555555;
-
-  --menu-color: #555555;
-  --menu-link-color: #666666;
-  --menu-hover-color: #444444;
-
-  --line-color: #555555;
-
-  --black-color: #000000;
-  --darkest-color: #0C0C0C;
-  --darker-color: #191919;
-  --dark-color: #333333;
-  --mid3x-color: #444444;
-  --mid2x-color: #555555;
-  --mid-color: #666666;
-  --light-color: #999999;
-  --lighter-color: #cccccc;
-  --lightest-color: #e5e5e5;
-  --lightest2x-color: #efefef;
-  --lightest3x-color: #f0f0f0;
-  --lightest4x-color: #f9f9f9;
-  --white-color: #ffffff;
+  --black: #000000;
+  --darkest: #0C0C0C;
+  --darker: #191919;
+  --dark: #333333;
+  --mid3x: #444444;
+  --mid2x: #555555;
+  --mid: #666666;
+  --light: #999999;
+  --lighter: #cccccc;
+  --lightest: #e5e5e5;
+  --lightest2x: #efefef;
+  --lightest3x: #f0f0f0;
+  --lightest4x: #f9f9f9;
+  --white: #ffffff;
 
   --line-borderwidth: 1px;
 
@@ -222,6 +204,29 @@
        url('/wp-content/themes/setup-gp/assets/fonts/vollkorn-v21-latin-600.svg#Vollkorn') format('svg'); /* Legacy iOS */
 }
 
+body {}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: var(--accent);
+}
+
+.darkmode a {
+        color: var(--accentdm);
+    }
+
+a:hover,
+a:active {
+    color: var(--highlight);
+}
+
+.darkmode a:hover,
+    .darkmode a:active {
+        color: var(--highlightdm);
+    }
+
 .separate-containers .inside-article, 
 .separate-containers .comments-area, 
 .separate-containers .page-header, 
@@ -297,14 +302,14 @@ h6 {
 h5 {
   font-size: 1.125rem;
   line-height: 1.75rem;
-	color: var(--main-color);
+	color: var(--main);
 }
 
 .textsize-medium,
 h4 {
   font-size: 1.125rem;
   line-height: 1.75rem;
-	color: var(--main-color);
+	color: var(--main);
 }
 
 @media (min-width: 1088px) {
@@ -541,124 +546,292 @@ h1 {
   }
 }
 
+.has-main-color {
+	color: var(--main);
+}
+
+.has-accent-color {
+	color: var(--accent);
+}
+
+.has-highlight-color {
+	color: var(--highlight);
+}
+
+.has-maindm-color {
+	color: var(--maindm);
+}
+
+.has-accentdm-color {
+	color: var(--accentdm);
+}
+
+.has-highlightdm-color {
+	color: var(--highlightdm);
+}
+
 .text-main {
-	color: var(--main-color);
+	color: var(--main);
 }
 
-.text-link {
-	color: var(--link-color);
+.text-accent {
+	color: var(--accent);
 }
 
-.text-hover {
-	color: var(--hover-color);
+.text-highlight {
+	color: var(--highlight);
+}
+
+.text-maindm {
+	color: var(--maindm);
+}
+
+.text-accentdm {
+	color: var(--accentdm);
+}
+
+.text-highlightdm {
+	color: var(--highlightdm);
+}
+
+.has-black-color {
+	color: var(--black);
+}
+
+.has-darkest-color {
+	color: var(--darkest);
+}
+
+.has-darker-color {
+	color: var(--darker);
+}
+
+.has-dark-color {
+	color: var(--dark);
+}
+
+.has-mid-color {
+	color: var(--mid);
+}
+
+.has-light-color {
+	color: var(--light);
+}
+
+.has-lighter-color {
+	color: var(--lighter);
+}
+
+.has-lightest-color {
+	color: var(--lightest);
+}
+
+.has-lightest-2-x-color {
+	color: var(--lightest2x);
+}
+
+.has-lightest-3-x-color {
+	color: var(--lightest3x);
+}
+
+.has-lightest-4-x-color {
+	color: var(--lightest4x);
+}
+
+.has-white-color {
+	color: var(--white);
 }
 
 .text-black {
-	color: var(--black-color);
+	color: var(--black);
 }
 
 .text-darkest {
-	color: var(--darkest-color);
+	color: var(--darkest);
 }
 
 .text-darker {
-	color: var(--darker-color);
+	color: var(--darker);
 }
 
 .text-dark {
-	color: var(--dark-color);
+	color: var(--dark);
 }
 
 .text-mid {
-	color: var(--mid-color);
+	color: var(--mid);
 }
 
 .text-light {
-	color: var(--light-color);
+	color: var(--light);
 }
 
 .text-lighter {
-	color: var(--lighter-color);
+	color: var(--lighter);
 }
 
 .text-lightest {
-	color: var(--lightest-color);
+	color: var(--lightest);
 }
 
 .text-lightest2x {
-	color: var(--lightest2x-color);
+	color: var(--lightest2x);
 }
 
 .text-lightest3x {
-	color: var(--lightest3x-color);
+	color: var(--lightest3x);
 }
 
 .text-lightest4x {
-	color: var(--lightest4x-color);
+	color: var(--lightest4x);
 }
 
 .text-white {
-	color: var(--white-color);
+	color: var(--white);
+}
+
+.has-main-background-color {
+	color: var(--main);
+}
+
+.has-accent-background-color {
+	color: var(--accent);
+}
+
+.has-highlight-background-color {
+	color: var(--highlight);
+}
+
+.has-maindm-background-color {
+	color: var(--maindm);
+}
+
+.has-accentdm-background-color {
+	color: var(--accentdm);
+}
+
+.has-highlightdm-background-color {
+	color: var(--highlightdm);
 }
 
 .bg-main {
-	background-color: var(--main-color);
+	color: var(--main);
 }
 
-.bg-link {
-	background-color: var(--link-color);
+.bg-accent {
+	color: var(--accent);
 }
 
-.bg-hover {
-	background-color: var(--hover-color);
+.bg-highlight {
+	color: var(--highlight);
+}
+
+.bg-maindm {
+	color: var(--maindm);
+}
+
+.bg-accentdm {
+	color: var(--accentdm);
+}
+
+.bg-highlightdm {
+	color: var(--highlightdm);
+}
+
+.has-black-background-color {
+	background-color: var(--black);
+}
+
+.has-darkest-background-color {
+	background-color: var(--darkest);
+}
+
+.has-darker-background-color {
+	background-color: var(--darker);
+}
+
+.has-dark-background-color {
+	background-color: var(--dark);
+}
+
+.has-mid-background-color {
+	background-color: var(--mid);
+}
+
+.has-light-background-color {
+	background-color: var(--light);
+}
+
+.has-lighter-background-color {
+	background-color: var(--lighter);
+}
+
+.has-lightest-background-color {
+	background-color: var(--lightest);
+}
+
+.has-lightest-2-x-background-color {
+	background-color: var(--lightest2x);
+}
+
+.has-lightest-3-x-background-color {
+	background-color: var(--lightest3x);
+}
+
+.has-lightest-4-x-background-color {
+	background-color: var(--lightest4x);
+}
+
+.has-white-background-color {
+	background-color: var(--white);
 }
 
 .bg-black {
-	background-color: var(--black-color);
+	background-color: var(--black);
 }
 
 .bg-darkest {
-	background-color: var(--darkest-color);
+	background-color: var(--darkest);
 }
 
 .bg-darker {
-	background-color: var(--darker-color);
+	background-color: var(--darker);
 }
 
 .bg-dark {
-	background-color: var(--dark-color);
+	background-color: var(--dark);
 }
 
 .bg-mid {
-	background-color: var(--mid-color);
+	background-color: var(--mid);
 }
 
 .bg-light {
-	background-color: var(--light-color);
+	background-color: var(--light);
 }
 
 .bg-lighter {
-	background-color: var(--lighter-color);
+	background-color: var(--lighter);
 }
 
 .bg-lightest {
-	background-color: var(--lightest-color);
+	background-color: var(--lightest);
 }
 
 .bg-lightest2x {
-	background-color: var(--lightest2x-color);
+	background-color: var(--lightest2x);
 }
 
 .bg-lightest3x {
-	background-color: var(--lightest3x-color);
+	background-color: var(--lightest3x);
 }
 
 .bg-lightest4x {
-	background-color: var(--lightest4x-color);
+	background-color: var(--lightest4x);
 }
 
 .bg-white {
-	background-color: var(--white-color);
+	background-color: var(--white);
 }
 
 .flex-centerline,

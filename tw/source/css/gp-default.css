@@ -1,0 +1,20 @@
+body {}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: var(--accent);
+}
+    .darkmode a {
+        color: var(--accentdm);
+    }
+
+a:hover,
+a:active {
+    color: var(--highlight);
+}
+    .darkmode a:hover,
+    .darkmode a:active {
+        color: var(--highlightdm);
+    }

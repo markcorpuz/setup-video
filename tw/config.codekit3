@@ -60,6 +60,18 @@
       "oF" : 1,
       "pg" : 0
     },
+    "\/source\/css\/gp-default.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 1,
+      "co" : 2,
+      "ft" : 16,
+      "ma" : 3,
+      "oA" : 1,
+      "oAP" : "\/build\/css\/gp-default.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/source\/css\/gp-styleinfo.css" : {
       "aP" : 1,
       "bl" : 0,

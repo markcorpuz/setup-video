@@ -1,43 +1,25 @@
 :root {
-  --main-color: #555555;
+  --main: #555555;
+  --maindm: #f0f0f0;
+  --accent: #1e73be;
+  --accentdm: #d0e5f8;
+  --highlight: #4799e2;
+  --highlightdm: #f2f8fd;
 
-  --link-color: #666666;
-  --hover-color: #000000;
-  --active-color: #000000;
-
-  --btn-color: #666666;
-  --btnlink-color: #666666;
-  --btnhover-color: #000000;
-  --btnactive-color: #000000;
-
-  --heading-color: #555555;
-  --heading-link-color: #777777;
-  --heading-hover-color: #555555;
-
-  --meta-color: #999999;
-  --meta-link-color: #777777;
-  --meta-hover-color: #555555;
-
-  --menu-color: #555555;
-  --menu-link-color: #666666;
-  --menu-hover-color: #444444;
-
-  --line-color: #555555;
-
-  --black-color: #000000;
-  --darkest-color: #0C0C0C;
-  --darker-color: #191919;
-  --dark-color: #333333;
-  --mid3x-color: #444444;
-  --mid2x-color: #555555;
-  --mid-color: #666666;
-  --light-color: #999999;
-  --lighter-color: #cccccc;
-  --lightest-color: #e5e5e5;
-  --lightest2x-color: #efefef;
-  --lightest3x-color: #f0f0f0;
-  --lightest4x-color: #f9f9f9;
-  --white-color: #ffffff;
+  --black: #000000;
+  --darkest: #0C0C0C;
+  --darker: #191919;
+  --dark: #333333;
+  --mid3x: #444444;
+  --mid2x: #555555;
+  --mid: #666666;
+  --light: #999999;
+  --lighter: #cccccc;
+  --lightest: #e5e5e5;
+  --lightest2x: #efefef;
+  --lightest3x: #f0f0f0;
+  --lightest4x: #f9f9f9;
+  --white: #ffffff;
 
   --line-borderwidth: 1px;
 

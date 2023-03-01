@@ -3,6 +3,7 @@
 @import "gp-styleinfo";
 @import "variables";
 @import "setup-fontslocal";
+@import "gp-default";
 @import "gp-container";
 @import "setup-gutenberg";
 @import "setup-selector-font";
