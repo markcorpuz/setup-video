@@ -11,6 +11,7 @@
 	border-bottom: 1px dotted #ccc;
 }
 
+.container-demo-v1 .container-demoinfo,
 .container-demo-v1 .wp-block-group.container-demoinfo {
 	@apply text-small;
 	color: #ccc;
@@ -18,12 +19,15 @@
 	padding: 0.5rem;
 	border-bottom: 1px dotted #ccc;	
 }
+.container-demo-v1 .container-demoinfo,
 .container-demo-v1 .wp-block-group.container-demoinfo .wp-block-group__inner-container {
 	padding: 0;
 }
+.container-demo-v1 .container-demoinfo p,
 .container-demo-v1 .wp-block-group.container-demoinfo p {
 	margin-bottom: 0.25rem;
 }
+.container-demo-v1 .container-demoinfo p:last-child,
 .container-demo-v1 .wp-block-group.container-demoinfo p:last-child {
 	margin-bottom: 0;
 }

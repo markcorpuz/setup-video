@@ -31,6 +31,9 @@
 .lead-medium3x {
 	@apply mt-medium3x;
 }
+.lead-medium4x {
+	@apply mt-medium4x;
+}
 .lead-large {
 	@apply mt-large;
 }
