@@ -208,17 +208,25 @@ body {}
 
 a,
 a:link,
-a:visited {
+a:visited,
+a.read-more.button:not(),
+a.read-more.button:link:not(),
+a.read-more.button:visited:not() {
     text-decoration: none;
     color: var(--accent);
+    cursor: pointer;
 }
 
-.darkmode a {
+.darkmode a,
+    .darkmode a:link,
+    .darkmode a:visited {
         color: var(--accentdm);
     }
 
 a:hover,
-a:active {
+a:active,
+a.read-more.button:hover:not(),
+a.read-more.button:active:not() {
     color: var(--highlight);
 }
 
@@ -226,6 +234,26 @@ a:active {
     .darkmode a:active {
         color: var(--highlightdm);
     }
+
+.gb-button,
+a.gb-button,
+a.gb-button:link,
+a.gb-button:visited,
+span.gb-button,
+span.gb-button:link,
+span.gb-button:visited {
+    color: var(--white);
+    background-color: var(--accent);
+}
+
+.gb-button,
+a.gb-button:hover,
+a.gb-button:active,
+span.gb-button:hover,
+span.gb-button:active {
+    color: var(--white);
+    background-color: var(--highlight);
+}
 
 .separate-containers .inside-article, 
 .separate-containers .comments-area, 
