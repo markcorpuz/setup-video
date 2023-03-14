@@ -5,6 +5,7 @@
 @import "setup-fontslocal";
 @import "gp-default";
 @import "gp-container";
+@import "setup-guide";
 @import "setup-gutenberg";
 @import "setup-selector-font";
 @import "setup-selector-text";
@@ -20,4 +21,3 @@
 @import "setup-selector-shadow";
 @import "setup-selector-tooltip";
 @import "setup-custom";
-@import "setup-guide";

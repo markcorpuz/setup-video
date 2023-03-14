@@ -1,33 +1,69 @@
-.gb-container.container-demo-v1 {
-	outline-style: dashed;
-	outline-color: #ccc;
+.guide-box,
+.guide-box-top,
+.guide-box-bottom {
+	@apply mt-huge mb-huge;
+	border-top: 10px dashed #eee;
+	border-bottom: 5px dashed #f0f0f0;
+}
+.guide-box-top {
+	border-bottom: 0;
+}
+.guide-box-bottom {
+	border-top: 0;
+}
+.guide-info {
+	padding: 5px;
+	border: 1px dashed #ccc;
+	color: #ccc;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+.guide-info2 {
+	padding: 5px;
+	border-bottom: 1px dashed #ccc;
+	color: #ccc;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+.guide-info p:last-child,
+.guide-info2 p:last-child {
+	margin-bottom: 0;
+}
+.guide-info-bar {
+	border-bottom: 5px solid;
+	border-image: linear-gradient(to right, #ff9a9a 100px, transparent 0) 100% 1;
+	padding: 5px;
+	color: #ccc;
+}
+.guide-info-bar p:last-child {
+	margin-bottom: 0;
+}
+.guide-info-bar2 {
+	border-left: 5px solid #ff9a9a;
+	padding: 5px;
+	color: #ccc;
+}
+.guide-startbar {
+	border-top: 10px dashed #ccc;
+}
+.guide-endbar {
+	border-bottom: 5px dashed #ccc;
+}
+.guide-message {
+	padding: 1rem;
+}
+.guide-message p:last-child {
+	margin-bottom: 0;
 }
 
-.gb-container.container-demo-v1 .container-demosummary {
-	@apply text-small;
-	color: #ccc;
-	margin-bottom: 0;
-	padding: 0.5rem;
-	border-bottom: 1px dotted #ccc;
+.guide-tip {
+	padding-left: 1rem;
+	border-left: 5px solid #ff9a9a;
 }
 
-.container-demo-v1 .container-demoinfo,
-.container-demo-v1 .wp-block-group.container-demoinfo {
-	@apply text-small;
-	color: #ccc;
-	margin-bottom: 0;
+.codetip {
+	@apply mb-main p-tiny text-smaller;
+	outline: var(--line-borderwidth) solid var(--line-color);
+	outline-color: var(--lightest-color);
 	padding: 0.5rem;
-	border-bottom: 1px dotted #ccc;	
-}
-.container-demo-v1 .container-demoinfo,
-.container-demo-v1 .wp-block-group.container-demoinfo .wp-block-group__inner-container {
-	padding: 0;
-}
-.container-demo-v1 .container-demoinfo p,
-.container-demo-v1 .wp-block-group.container-demoinfo p {
-	margin-bottom: 0.25rem;
-}
-.container-demo-v1 .container-demoinfo p:last-child,
-.container-demo-v1 .wp-block-group.container-demoinfo p:last-child {
-	margin-bottom: 0;
 }
