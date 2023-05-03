@@ -1,6 +1,6 @@
 @import "tailwindcss/base";
 
-@import "gp-styleinfo";
+@import "setupvideo-styleinfo";
 @import "variables";
 @import "setup-fontslocal";
 @import "gp-default";

@@ -4,10 +4,10 @@
     {
       "name" : "Process All Remaining Files and Folders",
       "stepType" : 1,
-      "uuidString" : "84927A70-95CD-4E0E-90B6-2E5D55AC07D1"
+      "uuidString" : "872BFCF3-30C4-490C-BBB8-58453F20AB72"
     }
   ],
-  "creatorBuild" : "34448",
+  "creatorBuild" : "34472",
   "files" : {
     "\/build" : {
       "ft" : 65536,
@@ -72,18 +72,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/source\/css\/gp-styleinfo.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 1,
-      "co" : 2,
-      "ft" : 16,
-      "ma" : 3,
-      "oA" : 1,
-      "oAP" : "\/build\/css\/gp-styleinfo.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/source\/css\/main.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -93,7 +81,7 @@
       "ma" : 3,
       "oA" : 0,
       "oAP" : "\/build\/css\/main.css",
-      "oF" : 0,
+      "oF" : 1,
       "pg" : 0
     },
     "\/source\/css\/setup-custom.css" : {
@@ -300,6 +288,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/source\/css\/setupvideo-styleinfo.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 1,
+      "co" : 2,
+      "ft" : 16,
+      "ma" : 3,
+      "oA" : 1,
+      "oAP" : "\/build\/css\/setupvideo-styleinfo.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/source\/css\/style.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -334,7 +334,7 @@
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 90,
+      "q" : 100,
       "rq" : 75
     },
     "\/source\/favicon-32x32.png" : {
@@ -347,7 +347,7 @@
       "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 90,
+      "q" : 100,
       "rq" : 75
     },
     "\/source\/favicon.ico" : {
@@ -386,7 +386,7 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/build\/tailwind.config.js",
-      "oF" : 0,
+      "oF" : 1,
       "sC" : 3,
       "tS" : 0
     }
@@ -394,24 +394,24 @@
   "hooks" : [
     {
       "enabled" : 1,
-      "name" : "copy styles.css",
+      "name" : "copy setup-video style.css",
       "predicateDataBase64Encoded" : "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGvEBYLDBMYICorLjU5Pj9CRkpPUFNbX2NlVSRudWxs0w0ODxAREl8QF05TQ29tcG91bmRQcmVkaWNhdGVUeXBlXxAPTlNTdWJwcmVkaWNhdGVzViRjbGFzcxACgAKAFdIUDxUXWk5TLm9iamVjdHOhFoADgBTUDxkaGxwdHh9fEBFOU1JpZ2h0RXhwcmVzc2lvbl8QEE5TTGVmdEV4cHJlc3Npb25fEBNOU1ByZWRpY2F0ZU9wZXJhdG9ygBOADoAEgBHVISIjJA8lJicoKVlOU09wZXJhbmReTlNTZWxlY3Rvck5hbWVfEBBOU0V4cHJlc3Npb25UeXBlW05TQXJndW1lbnRzgAaABRADgAiADVx2YWx1ZUZvcktleTrSIw8sLRABgAfSLzAxMlokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMxMzRcTlNFeHByZXNzaW9uWE5TT2JqZWN00hQPNjihN4AJgAzTDyM6Ozw9WU5TS2V5UGF0aIALEAqACl1pbnB1dEZpbGVuYW1l0i8wQEFfEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uo0AzNNIvMENEXk5TTXV0YWJsZUFycmF5o0NFNFdOU0FycmF50i8wR0hfEBNOU0tleVBhdGhFeHByZXNzaW9upEdJMzRfEBROU0Z1bmN0aW9uRXhwcmVzc2lvbtNLIw9MTU5fEA9OU0NvbnN0YW50VmFsdWWADxAAgBBZc3R5bGUuY3Nz0i8wUVJfEBlOU0NvbnN0YW50VmFsdWVFeHByZXNzaW9uo1EzNNUPVFVWV1hNWSdaWk5TTW9kaWZpZXJYTlNOZWdhdGVZTlNPcHRpb25zXk5TT3BlcmF0b3JUeXBlgBIIEATSLzBcXV8QG05TRXF1YWxpdHlQcmVkaWNhdGVPcGVyYXRvcqNcXjRfEBNOU1ByZWRpY2F0ZU9wZXJhdG9y0i8wYGFfEBVOU0NvbXBhcmlzb25QcmVkaWNhdGWjYGI0W05TUHJlZGljYXRl0i8wRWSiRTTSLzBmZ18QE05TQ29tcG91bmRQcmVkaWNhdGWjZmI0AAgAEQAaACQAKQAyADcASQBMAFEAUwBsAHIAeQCTAKUArACuALAAsgC3AMIAxADGAMgA0QDlAPgBDgEQARIBFAEWASEBKwE6AU0BWQFbAV0BXwFhAWMBcAF1AXcBeQF+AYkBkgGlAakBtgG\/AcQBxgHIAcoB0QHbAd0B3wHhAe8B9AITAhcCHAIrAi8CNwI8AlICVwJuAnUChwKJAosCjQKXApwCuAK8AscC0gLbAuUC9AL2AvcC+QL+AxwDIAM2AzsDUwNXA2MDaANrA3ADhgAAAAAAAAIBAAAAAAAAAGgAAAAAAAAAAAAAAAAAAAOK",
       "runOrder" : 0,
-      "scriptSourceString" : "cp \"$CK_OUTPUT_PATH\" \/Users\/marcos\/Dropbox\/WP_Setup\/setup-gp.local\/app\/public\/wp-content\/themes\/setup-gp",
+      "scriptSourceString" : "cp \"$CK_OUTPUT_PATH\" \/Users\/marcos\/Dropbox\/WP_Setup\/setup-video.local\/app\/public\/wp-content\/themes\/setup-video",
       "scriptType" : 1,
-      "uuidString" : "A47FCAF6-6F54-4EAB-874A-D90B9713EA51"
+      "uuidString" : "4503E3C9-0206-485A-9D1D-B7E8DE09BEA0"
     }
   ],
   "manualImportLinks" : {
 
   },
   "projectAttributes" : {
-    "creationDate" : 694567276.88806605,
-    "displayValue" : "SETUP-GP",
+    "creationDate" : 704846100.40842295,
+    "displayValue" : "SETUP-VIDEO",
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/source\/logo.jpg",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 694567290.71260202
+    "lastBuiltDate" : 704846109.53826296
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -1013,7 +1013,7 @@
         "active" : 1
       },
       "no-compare-neg-zero" : {
-        "active" : 0
+        "active" : 1
       },
       "no-cond-assign" : {
         "active" : 1,
@@ -1024,7 +1024,7 @@
         "optionString" : "{'allowParens': true, 'onlyOneSimpleParam': false}"
       },
       "no-console" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'allow': ['warn', 'error']}"
       },
       "no-const-assign" : {
@@ -1194,10 +1194,10 @@
       },
       "no-magic-numbers" : {
         "active" : 0,
-        "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'enforceConst': false, 'detectObjects': false}"
+        "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'ignoreClassFieldInitialValues': false, 'enforceConst': false, 'detectObjects': false}"
       },
       "no-misleading-character-class" : {
-        "active" : 0
+        "active" : 1
       },
       "no-mixed-operators" : {
         "active" : 0,
@@ -1977,6 +1977,7 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
+    "rollupTreeshakingModuleSideEffects" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
