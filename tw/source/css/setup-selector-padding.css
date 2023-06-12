@@ -97,6 +97,10 @@
 	@apply pr-medium3x;
 	@apply pl-medium3x;
 }
+.padx-medium4x {
+	@apply pr-medium4x;
+	@apply pl-medium4x;
+}
 .padx-large {
 	@apply pr-large;
 	@apply pl-large;
@@ -166,6 +170,10 @@
 	@apply pt-medium3x;
 	@apply pb-medium3x;
 }
+.pady-medium4x {
+	@apply pt-medium4x;
+	@apply pb-medium4x;
+}
 .pady-large {
 	@apply pt-large;
 	@apply pb-large;
@@ -224,6 +232,9 @@
 .padt-medium3x {
 	@apply pt-medium3x;
 }
+.padt-medium4x {
+	@apply pt-medium4x;
+}
 .padt-large {
 	@apply pt-large;
 }
@@ -275,6 +286,9 @@
 }
 .padr-medium3x {
 	@apply pr-medium3x;
+}
+.padr-medium4x {
+	@apply pr-medium4x;
 }
 .padr-large {
 	@apply pr-large;
@@ -328,6 +342,9 @@
 .padb-medium3x {
 	@apply pb-medium3x;
 }
+.padb-medium4x {
+	@apply pb-medium4x;
+}
 .padb-large {
 	@apply pb-large;
 }
@@ -379,6 +396,9 @@
 }
 .padl-medium3x {
 	@apply pl-medium3x;
+}
+.padl-medium4x {
+	@apply pl-medium4x;
 }
 .padl-large {
 	@apply pl-large;

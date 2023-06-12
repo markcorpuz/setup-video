@@ -16,8 +16,10 @@
 @import "setup-selector-margin";
 @import "setup-selector-padding";
 @import "setup-selector-container";
+@import "setup-selector-edges";
 @import "setup-selector-grid";
 @import "setup-selector-column";
 @import "setup-selector-shadow";
 @import "setup-selector-tooltip";
+@import "setup-selector-mediainfo";
 @import "setup-custom";
