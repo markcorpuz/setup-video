@@ -372,6 +372,17 @@ span.gb-button:active {
 	padding: 0;
 }
 
+.textsize-intro,
+.intro-small,
+.intro-main,
+.intro-medium,
+.intro-medium2x,
+.intro-medium4x,
+.intro,
+.intro-large {
+	font-weight: 300;
+}
+
 .font-thin {
 	font-weight: 100;
 }
@@ -381,10 +392,6 @@ span.gb-button:active {
 }
 
 .font-light {
-	font-weight: 300;
-}
-
-.textsize-intro {
 	font-weight: 300;
 }
 
@@ -433,6 +440,19 @@ span.gb-button:active {
 	font-family: "Vollkorn", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+.intro {
+  font-size: 1.875rem;
+  line-height: 2rem;
+}
+
+@media (min-width: 1088px) {
+
+  .intro {
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
+}
+
 .textsize-tiny {
   font-size: 0.625rem;
   line-height: 0.8rem;
@@ -445,7 +465,8 @@ span.gb-button:active {
 }
 
 .textsize-small,
-.textsize-meta {
+.textsize-meta,
+.intro-small {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
@@ -457,14 +478,16 @@ h6 {
 }
 
 .textsize-main,
-h5 {
+h5,
+.intro-main {
   font-size: 1.125rem;
   line-height: 1.75rem;
 	color: var(--main);
 }
 
 .textsize-medium,
-h4 {
+h4,
+.intro-medium {
   font-size: 1.125rem;
   line-height: 1.75rem;
 	color: var(--main);
@@ -473,14 +496,16 @@ h4 {
 @media (min-width: 1088px) {
 
   .textsize-medium,
-h4 {
+h4,
+.intro-medium {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }
 
 .textsize-medium2x,
-h3 {
+h3,
+.intro-medium2x {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
@@ -488,7 +513,8 @@ h3 {
 @media (min-width: 1088px) {
 
   .textsize-medium2x,
-h3 {
+h3,
+.intro-medium2x {
     font-size: 1.5rem;
     line-height: 2rem;
   }
@@ -508,7 +534,8 @@ h3 {
 }
 
 .textsize-medium4x,
-.textsize-intro {
+.textsize-intro,
+.intro-medium4x {
   font-size: 1.875rem;
   line-height: 2rem;
 }
@@ -516,14 +543,16 @@ h3 {
 @media (min-width: 1088px) {
 
   .textsize-medium4x,
-.textsize-intro {
+.textsize-intro,
+.intro-medium4x {
     font-size: 2rem;
     line-height: 2.25rem;
   }
 }
 
 .textsize-large,
-h2 {
+h2,
+.intro-large {
   font-size: 1.5rem;
   line-height: 2rem;
 }
@@ -531,7 +560,8 @@ h2 {
 @media (min-width: 512px) {
 
   .textsize-large,
-h2 {
+h2,
+.intro-large {
     font-size: 1.875rem;
     line-height: 2rem;
   }
@@ -540,7 +570,8 @@ h2 {
 @media (min-width: 832px) {
 
   .textsize-large,
-h2 {
+h2,
+.intro-large {
     font-size: 2rem;
     line-height: 2.25rem;
   }
@@ -549,7 +580,8 @@ h2 {
 @media (min-width: 1088px) {
 
   .textsize-large,
-h2 {
+h2,
+.intro-large {
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
@@ -2975,6 +3007,37 @@ body .nomargin-left {
   }
 }
 
+.edges-gigantic {
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+@media (min-width: 512px) {
+
+  .edges-gigantic {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .edges-gigantic {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .edges-gigantic {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
 .edges.noedge-vertical,
 .edges-tiny.noedge-vertical,
 .edges-small.noedge-vertical,
@@ -2983,7 +3046,8 @@ body .nomargin-left {
 .edges-larger.noedge-vertical,
 .edges-largest.noedge-vertical,
 .edges-huge.noedge-vertical,
-.edges-huge2x.noedge-vertical {
+.edges-huge2x.noedge-vertical,
+.edges-gigantic.noedge-vertical {
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -2996,7 +3060,8 @@ body .nomargin-left {
 .edges-larger.noedge-horizontal,
 .edges-largest.noedge-horizontal,
 .edges-huge.noedge-horizontal,
-.edges-huge2x.noedge-horizontal {
+.edges-huge2x.noedge-horizontal,
+.edges-gigantic.noedge-horizontal {
   padding-right: 0px;
   padding-left: 0px;
 }
@@ -3009,7 +3074,8 @@ body .nomargin-left {
 .edges-larger.noedge-top,
 .edges-largest.noedge-top,
 .edges-huge.noedge-top,
-.edges-huge2x.noedge-top {
+.edges-huge2x.noedge-top,
+.edges-gigantic.noedge-top {
   padding-top: 0px;
 }
 
@@ -3021,7 +3087,8 @@ body .nomargin-left {
 .edges-larger.noedge-bottom,
 .edges-largest.noedge-bottom,
 .edges-huge.noedge-bottom,
-.edges-huge2x.noedge-bottom {
+.edges-huge2x.noedge-bottom,
+.edges-gigantic.noedge-bottom {
   padding-bottom: 0px;
 }
 
@@ -3940,6 +4007,10 @@ body .nomargin-left {
 		.mediainfo.spread.maxwidth-larger,
 		.infomedia.spread.maxwidth-larger {
 			grid-template-columns: 1fr minmax(auto, 640px) minmax(auto, 640px) 1fr;
+		}
+		.mediainfo.spread.maxwidth-2k,
+		.infomedia.spread.maxwidth-2k {
+			grid-template-columns: 1fr minmax(auto, 1000px) minmax(auto, 1000px) 1fr;
 		}
 	}
 

@@ -54,6 +54,14 @@
 		pl-edges;
 }
 
+.edges-gigantic {
+	@apply 
+		pt-edges smallscreen:pt-huge mediumxscreen:pt-huge2x largexscreen:pt-gigantic
+		pr-edges
+		pb-edges smallscreen:pb-huge mediumxscreen:pb-huge2x largexscreen:pb-gigantic
+		pl-edges;
+}
+
 .edges.noedge-vertical,
 .edges-tiny.noedge-vertical,
 .edges-small.noedge-vertical,
@@ -62,7 +70,8 @@
 .edges-larger.noedge-vertical,
 .edges-largest.noedge-vertical,
 .edges-huge.noedge-vertical,
-.edges-huge2x.noedge-vertical {
+.edges-huge2x.noedge-vertical,
+.edges-gigantic.noedge-vertical {
 	@apply pt-0;
 	@apply pb-0;
 }
@@ -75,7 +84,8 @@
 .edges-larger.noedge-horizontal,
 .edges-largest.noedge-horizontal,
 .edges-huge.noedge-horizontal,
-.edges-huge2x.noedge-horizontal {
+.edges-huge2x.noedge-horizontal,
+.edges-gigantic.noedge-horizontal {
 	@apply pr-0;
 	@apply pl-0;
 }
@@ -88,7 +98,8 @@
 .edges-larger.noedge-top,
 .edges-largest.noedge-top,
 .edges-huge.noedge-top,
-.edges-huge2x.noedge-top {
+.edges-huge2x.noedge-top,
+.edges-gigantic.noedge-top {
 	@apply pt-0;
 }
 
@@ -100,6 +111,7 @@
 .edges-larger.noedge-bottom,
 .edges-largest.noedge-bottom,
 .edges-huge.noedge-bottom,
-.edges-huge2x.noedge-bottom {
+.edges-huge2x.noedge-bottom,
+.edges-gigantic.noedge-bottom {
 	@apply pb-0;
 }

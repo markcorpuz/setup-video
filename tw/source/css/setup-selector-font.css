@@ -1,3 +1,14 @@
+.textsize-intro,
+.intro-small,
+.intro-main,
+.intro-medium,
+.intro-medium2x,
+.intro-medium4x,
+.intro,
+.intro-large {
+	font-weight: 300;
+}
+
 .font-thin {
 	font-weight: 100;
 }
@@ -7,9 +18,6 @@
 }
 
 .font-light {
-	font-weight: 300;
-}
-.textsize-intro {
 	font-weight: 300;
 }
 
