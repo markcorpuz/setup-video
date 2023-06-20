@@ -1,15 +1,96 @@
+.position-center {}
+.position-center-left {}
+.position-center-right {}
+
+	@media screen(mediumxscreen) {
+		.position-center,
+		.position-center-left,
+		.position-center-right {
+			display: flex;
+		}
+		.position-center {
+			align-items: center;
+			justify-content: center;
+		}
+		.position-center-left {
+			align-items: center;
+			justify-content: flex-start;
+		}
+		.position-center-right {
+			align-items: center;
+			justify-content: flex-end;
+		}
+	}
+
+.position-upper-left {}
+.position-upper-right {}
+.position-lower-left {}
+.position-lower-right {}
+
+	@media screen(mediumxscreen) {
+		.position-upper-left,
+		.position-upper-right,
+		.position-lower-left,
+		.position-lower-right {
+			display: flex;
+		}
+		.position-upper-left {
+			align-items: flex-start;
+			justify-content: flex-start;
+		}
+		.position-upper-right {
+			align-items: flex-start;
+			justify-content: flex-end;
+		}
+		.position-lower-left {
+			align-items: flex-end;
+			justify-content: flex-start;
+		}
+		.position-lower-right {
+			align-items: flex-end;
+			justify-content: flex-end;
+		}
+	}
+
+.position-top {}
+.position-right {}
+.position-bottom {}
+.position-left {}
+
+	@media screen(mediumxscreen) {
+		.position-top,
+		.position-right,
+		.position-bottom,
+		.position-left {
+			display: flex;
+		}
+		.position-top {
+			align-items: flex-start;
+		}
+		.position-right {
+			justify-content: flex-end;
+		}
+		.position-bottom {
+			align-items: flex-end;
+		}
+		.position-left {
+			justify-content: flex-start;
+		}
+	}
+
+
 .flex-centerline,
 .group--flex-centerline.gb-container > .gb-inside-container,
 .group-flex-centerline.gb-container > .gb-inside-container {
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
 }
 
 .flex-centerlinestretch,
 .group--flex-centerlinestretch.gb-container > .gb-inside-container,
 .group-flex-centerlinestretch.gb-container > .gb-inside-container {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
+	justify-content: space-between;
 }

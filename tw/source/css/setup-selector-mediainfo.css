@@ -1,16 +1,24 @@
-
 .mediainfo,
-.infomedia {
+.mediainfo.mediainfo-vertical
+.infomedia.mediainfo-vertical {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-areas: 
 		"media"
 		"info";
 }
-.infomedia {
+.infomedia,
+.infomedia.infomedia-vertical,
+.mediainfo.infomedia-vertical {
+	display: grid;
+	grid-template-columns: 1fr;
 	grid-template-areas: 
 		"info"
 		"media";
+}
+.mediainfo.gap,
+.infomedia.gap {
+	grid-row-gap: 1.5rem;
 }
 
 	@media screen(smallscreen) {}
@@ -18,14 +26,47 @@
 	@media screen(mediumxscreen) {
 
 		.mediainfo,
-		.infomedia {
+		.mediainfo.mediainfo-vertical,
+		.mediainfo.infomedia-vertical {
 			grid-template-columns: 1fr 1fr;
 			grid-template-areas: 
 				"media info";
 		}
-		.infomedia {
+		.infomedia,
+		.infomedia.infomedia-vertical {
+			grid-template-columns: 1fr 1fr;
 			grid-template-areas: 
 				"info media";
+		}
+
+		.mediainfo.gap,
+		.infomedia.gap {
+			grid-column-gap: 1.5rem;
+		}
+
+		.mediainfo.third,
+		.infomedia.third {
+			grid-template-columns: 1fr 2fr;
+		}
+		.mediainfo.fourth,
+		.infomedia.fourth {
+			grid-template-columns: 1fr 3fr;
+		}
+		.mediainfo.fifth,
+		.infomedia.fifth {
+			grid-template-columns: 1fr 4fr;
+		}
+		.mediainfo.twothird,
+		.infomedia.twothird {
+			grid-template-columns: 2fr 1fr;
+		}
+		.mediainfo.threefourth,
+		.infomedia.threefourth {
+			grid-template-columns: 3fr 1fr;
+		}
+		.mediainfo.fourfifth,
+		.infomedia.fourfifth {
+			grid-template-columns: 4fr 1fr;
 		}
 
 		.mediainfo.spread,
@@ -108,10 +149,8 @@
 
 .info {
 	grid-area: info;
-	background-color: yellow;
 }
 
 .media {
 	grid-area: media;
-	background-color: orange;
 }

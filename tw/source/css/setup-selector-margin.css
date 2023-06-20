@@ -19,8 +19,11 @@
 .margin-base {
 	@apply m-base;
 }
-.margin {
+.margin-main {
 	@apply m-main;
+}
+.margin {
+	@apply m-medium2x;
 }
 .margin-medium {
 	@apply m-medium;
@@ -74,8 +77,11 @@
 .margint-base {
 	@apply mt-base;
 }
-.margint {
+.margint-main {
 	@apply mt-main;
+}
+.margint {
+	@apply mt-medium2x;
 }
 .margint-medium {
 	@apply mt-medium;
@@ -128,8 +134,11 @@
 .marginb-base {
 	@apply mb-base;
 }
-.marginb {
+.marginb-main {
 	@apply mb-main;
+}
+.marginb {
+	@apply mb-medium2x;
 }
 .marginb-medium {
 	@apply mb-medium;

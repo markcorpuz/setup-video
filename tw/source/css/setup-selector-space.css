@@ -1,3 +1,7 @@
+.space-intro {
+	@apply mb-medium4x;
+}
+
 .space-px {
 	@apply mb-px;
 }
@@ -19,8 +23,11 @@
 .space-base {
 	@apply mb-base;
 }
-.space {
+.space-base {
 	@apply mb-main;
+}
+.space {
+	@apply mb-medium2x;
 }
 .space-medium {
 	@apply mb-medium;

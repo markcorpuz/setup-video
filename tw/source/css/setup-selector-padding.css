@@ -19,6 +19,9 @@
 .pad-base {
 	@apply p-base;
 }
+.pad-main {
+	@apply p-main;
+}
 .pad {
 	@apply p-main;
 }
@@ -81,9 +84,13 @@
 	@apply pr-base;
 	@apply pl-base;
 }
-.padx {
+.padx-main {
 	@apply pr-main;
 	@apply pl-main;
+}
+.padx {
+	@apply pr-medium2x;
+	@apply pl-medium2x;
 }
 .padx-medium {
 	@apply pr-medium;
@@ -154,9 +161,13 @@
 	@apply pt-base;
 	@apply pb-base;
 }
-.pady {
+.pady-main {
 	@apply pt-main;
 	@apply pb-main;
+}
+.pady {
+	@apply pt-medium2x;
+	@apply pb-medium2x;
 }
 .pady-medium {
 	@apply pt-medium;
@@ -220,8 +231,11 @@
 .padt-base {
 	@apply pt-base;
 }
-.padt {
+.padt-main {
 	@apply pt-main;
+}
+.padt {
+	@apply pt-medium2x;
 }
 .padt-medium {
 	@apply pt-medium;
@@ -275,8 +289,11 @@
 .padr-base {
 	@apply pr-base;
 }
-.padr {
+.padr-main {
 	@apply pr-main;
+}
+.padr {
+	@apply pr-medium2x;
 }
 .padr-medium {
 	@apply pr-medium;
@@ -330,8 +347,11 @@
 .padb-base {
 	@apply pb-base;
 }
-.padb {
+.padb-main {
 	@apply pb-main;
+}
+.padb {
+	@apply pb-medium2x;
 }
 .padb-medium {
 	@apply pb-medium;
@@ -385,8 +405,11 @@
 .padl-base {
 	@apply pl-base;
 }
-.padl {
+.padl-main {
 	@apply pl-main;
+}
+.padl {
+	@apply pl-medium2x;
 }
 .padl-medium {
 	@apply pl-medium;

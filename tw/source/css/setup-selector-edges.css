@@ -1,3 +1,27 @@
+.edges-right-top {
+	@apply 
+		pt-edges mediumxscreen:pt-zero
+		mediumxscreen:pr-edges;
+}
+
+.edges-right-bottom {
+	@apply 
+		pb-edges mediumxscreen:pb-zero
+		mediumxscreen:pr-edges;
+}
+
+.edges-left-top {
+	@apply 
+		pt-edges mediumxscreen:pt-zero
+		mediumxscreen:pl-edges;
+}
+
+.edges-left-bottom {
+	@apply 
+		pb-edges mediumxscreen:pb-zero
+		mediumxscreen:pl-edges;
+}
+
 .edges {
 	@apply p-edges;
 }
