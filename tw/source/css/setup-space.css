@@ -1,0 +1,65 @@
+.space-intro {
+	@apply mb-medium4x;
+}
+
+.space-px {
+	@apply mb-px;
+}
+.space-2px {
+	@apply mb-2px;
+}
+.space-5px {
+	@apply mb-5px;
+}
+.space-tiny {
+	@apply mb-tiny;
+}
+.space-smaller {
+	@apply mb-smaller;
+}
+.space-small {
+	@apply mb-small;
+}
+.space-base {
+	@apply mb-base;
+}
+.space-main {
+	@apply mb-main;
+}
+.space {
+	@apply mb-medium2x;
+}
+.space-medium {
+	@apply mb-medium;
+}
+.space-medium2x {
+	@apply mb-medium2x;
+}
+.space-medium3x {
+	@apply mb-medium3x;
+}
+.space-medium4x {
+	@apply mb-medium4x;
+}
+.space-large {
+	@apply mb-large;
+}
+.space-larger {
+	@apply mb-larger;
+}
+.space-largest {
+	@apply mb-largest;
+}
+.space-huge {
+	@apply mb-huge;
+}
+.space-huge2x {
+	@apply mb-huge2x;
+}
+.space-gigantic {
+	@apply mb-gigantic;
+}
+
+.nospace {
+	@apply mb-0;
+}

@@ -1,0 +1,219 @@
+.intro {
+	@apply text-medium2x smallscreen:text-medium3x largexscreen:text-medium4x;
+}
+	.intro.lead {
+		@apply mt-medium2x smallscreen:mt-medium3x largexscreen:mt-medium4x;
+	}
+	.intro.space {
+		@apply mb-medium2x smallscreen:mb-medium3x largexscreen:mb-medium4x;
+	}
+
+.textsize-reference {
+	@apply text-smaller;
+}
+	.textsize-reference.lead {
+		@apply mt-smaller;
+	}
+	.textsize-reference.space {
+		@apply mb-smaller;
+	}
+
+.textsize-meta {
+	@apply text-small;
+}
+	.textsize-meta.lead {
+		@apply mt-small;
+	}
+	.textsize-meta.space {
+		@apply mb-small;
+	}
+
+
+.textsize-tiny {
+	@apply text-tiny;
+}
+	.textsize-tiny.lead {
+		@apply mt-tiny;
+	}
+	.textsize-tiny.space {
+		@apply mb-tiny;
+	}
+
+.textsize-smaller {
+	@apply text-smaller;
+}
+	.textsize-smaller.lead {
+		@apply mt-smaller;
+	}
+	.textsize-smaller.space {
+		@apply mb-smaller;
+	}
+
+.textsize-small,
+.intro-small {
+	@apply text-small;
+}
+	.textsize-small.lead,
+	.intro-small.lead {
+		@apply mt-small;
+	}
+	.textsize-small.space,
+	.intro-small.space {
+		@apply mb-small;
+	}
+
+.textsize-base,
+h6 {
+	@apply text-base;
+}
+	.textsize-base.lead,
+	h6.lead {
+		@apply mt-base;
+	}
+	.textsize-base.space,
+	h6.space {
+		@apply mb-base;
+	}
+
+.textsize-main,
+h5,
+.intro-main {
+	@apply text-main;
+}
+	.textsize-main.lead,
+	h5.lead,
+	.intro-main.lead {
+		@apply mt-main;
+	}
+	.textsize-main.space,
+	h5.space,
+	.intro-main.space {
+		@apply mb-main;
+	}
+
+.textsize-medium,
+h4,
+.intro-medium {
+	@apply text-main largexscreen:text-medium;
+}
+	.textsize-medium.lead,
+	h4.lead,
+	.intro-medium.lead {
+		@apply mt-main largexscreen:mt-medium;
+	}
+	.textsize-medium.space,
+	h4.space,
+	.intro-medium.space {
+		@apply mb-main largexscreen:mb-medium;
+	}
+
+.textsize-medium2x,
+h3,
+.intro-medium2x {
+	@apply text-medium largexscreen:text-medium2x;
+}
+	.textsize-medium2x.lead,
+	h3.lead,
+	.intro-medium2x.lead {
+		@apply mt-medium largexscreen:mt-medium2x;
+	}
+	.textsize-medium2x.space,
+	h3.space,
+	.intro-medium2x.space {
+		@apply mb-medium largexscreen:mb-medium2x;
+	}
+
+.textsize-medium3x,
+.intro-medium3x {
+	@apply text-medium2x largexscreen:text-medium3x;
+}
+	.textsize-medium3x.lead,
+	.intro-medium3x.lead {
+		@apply mt-medium2x largexscreen:mt-medium3x;
+	}
+	.textsize-medium3x.space,
+	.intro-medium3x.space {
+		@apply mb-medium2x largexscreen:mb-medium3x;
+	}
+
+.textsize-medium4x,
+.intro-medium4x {
+	@apply text-medium3x largexscreen:text-medium4x;
+}
+	.textsize-medium4x.lead,
+	.intro-medium4x.lead {
+		@apply mt-medium3x largexscreen:mt-medium4x;
+	}
+	.textsize-medium4x.space,
+	.intro-medium4x.space {
+		@apply mb-medium3x largexscreen:mb-medium4x;
+	}
+
+.textsize-large,
+h2,
+.intro-large {
+	@apply text-medium2x smallscreen:text-medium3x mediumxscreen:text-medium4x largexscreen:text-large;
+}
+	.textsize-large.lead,
+	h2.lead,
+	.intro-large.lead {
+		@apply mt-medium2x smallscreen:mt-medium3x mediumxscreen:mt-medium4x largexscreen:mt-large;
+	}
+	.textsize-large.space,
+	h2.space,
+	.intro-large.space {
+		@apply mb-medium2x smallscreen:mb-medium3x mediumxscreen:mb-medium4x largexscreen:mb-large;
+	}
+
+.textsize-larger,
+h1 {
+	@apply text-medium3x smallscreen:text-medium4x mediumxscreen:text-large largexscreen:text-larger;
+}
+	.textsize-larger.lead,
+	h1.lead {
+		@apply mt-medium3x smallscreen:mt-medium4x mediumxscreen:mt-large largexscreen:mt-larger;
+	}
+	.textsize-larger.space,
+	h1.space {
+		@apply mb-medium3x smallscreen:mb-medium4x mediumxscreen:mb-large largexscreen:mb-larger;
+	}
+
+.textsize-largest {
+	@apply text-medium4x smallscreen:text-large mediumxscreen:text-larger largexscreen:text-largest;
+}
+	.textsize-largest.lead {
+		@apply mt-medium4x smallscreen:mt-large mediumxscreen:mt-larger largexscreen:mt-largest;
+	}
+	.textsize-largest.space {
+		@apply mb-medium4x smallscreen:mb-large mediumxscreen:mb-larger largexscreen:mb-largest;
+	}
+
+.textsize-huge {
+	@apply text-large smallscreen:text-larger mediumxscreen:text-largest largexscreen:text-huge;
+}
+	.textsize-huge.lead {
+		@apply mt-large smallscreen:mt-larger mediumxscreen:mt-largest largexscreen:mt-huge;
+	}
+	.textsize-huge.space {
+		@apply mb-large smallscreen:mb-larger mediumxscreen:mb-largest largexscreen:mb-huge;
+	}
+
+.textsize-huge2x {
+	@apply text-larger smallscreen:text-largest mediumxscreen:text-huge largexscreen:text-huge2x;
+}
+	.textsize-huge2x.lead {
+		@apply mt-larger smallscreen:mt-largest mediumxscreen:mt-huge largexscreen:mt-huge2x;
+	}
+	.textsize-huge2x.space {
+		@apply mb-larger smallscreen:mb-largest mediumxscreen:mb-huge largexscreen:mb-huge2x;
+	}
+
+.textsize-gigantic {
+	@apply text-largest smallscreen:text-huge mediumxscreen:text-huge2x largexscreen:text-gigantic;
+}
+	.textsize-gigantic.lead {
+		@apply mt-largest smallscreen:mt-huge mediumxscreen:mt-huge2x largexscreen:mt-gigantic;
+	}
+	.textsize-gigantic.space {
+		@apply mb-largest smallscreen:mb-huge mediumxscreen:mb-huge2x largexscreen:mb-gigantic;
+	}

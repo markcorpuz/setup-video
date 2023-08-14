@@ -72,139 +72,354 @@
 /* open-sans-300 - latin */
 
 @font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
-  src: url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-300.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-300.woff') format('woff'), /* Modern Browsers */
-       url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-300.svg#OpenSans') format('svg'); /* Legacy iOS */
+  src: url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v35-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* open-sans-300italic - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v35-latin-300italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* open-sans-regular - latin */
 
 @font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+  src: url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v35-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* open-sans-italic - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v35-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* open-sans-500 - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v35-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* open-sans-500italic - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 500;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v35-latin-500italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* open-sans-600 - latin */
 
 @font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
-  src: url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-600.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-600.woff') format('woff'), /* Modern Browsers */
-       url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-600.svg#OpenSans') format('svg'); /* Legacy iOS */
+  src: url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v35-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* open-sans-600italic - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v35-latin-600italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* open-sans-700 - latin */
 
 @font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-700.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-700.woff') format('woff'), /* Modern Browsers */
-       url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v34-latin-700.svg#OpenSans') format('svg'); /* Legacy iOS */
+  src: url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v35-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-/* source-sans-pro-300 - latin */
+/* open-sans-700italic - latin */
 
 @font-face {
-  font-family: 'Source Sans Pro';
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v35-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* open-sans-800 - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v35-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* open-sans-800italic - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/open-sans-v35-latin-800italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-100 - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/roboto-v30-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-100italic - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/roboto-v30-latin-100italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-300 - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;
-  src: url('/wp-content/themes/setup-gp/assets/fonts/source-sans-pro-v21-latin-300.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('/wp-content/themes/setup-gp/assets/fonts/source-sans-pro-v21-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/wp-content/themes/setup-gp/assets/fonts/source-sans-pro-v21-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/wp-content/themes/setup-gp/assets/fonts/source-sans-pro-v21-latin-300.woff') format('woff'), /* Modern Browsers */
-       url('/wp-content/themes/setup-gp/assets/fonts/source-sans-pro-v21-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/wp-content/themes/setup-gp/assets/fonts/source-sans-pro-v21-latin-300.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+  src: url('/wp-content/themes/setup-gp/assets/fonts/roboto-v30-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-/* source-sans-pro-regular - latin */
+/* roboto-300italic - latin */
 
 @font-face {
-  font-family: 'Source Sans Pro';
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/roboto-v30-latin-300italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-regular - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url('/wp-content/themes/setup-gp/assets/fonts/source-sans-pro-v21-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('/wp-content/themes/setup-gp/assets/fonts/source-sans-pro-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/wp-content/themes/setup-gp/assets/fonts/source-sans-pro-v21-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/wp-content/themes/setup-gp/assets/fonts/source-sans-pro-v21-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('/wp-content/themes/setup-gp/assets/fonts/source-sans-pro-v21-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/wp-content/themes/setup-gp/assets/fonts/source-sans-pro-v21-latin-regular.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+  src: url('/wp-content/themes/setup-gp/assets/fonts/roboto-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-/* source-sans-pro-700 - latin */
+/* roboto-italic - latin */
 
 @font-face {
-  font-family: 'Source Sans Pro';
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/roboto-v30-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-500 - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/roboto-v30-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-500italic - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/roboto-v30-latin-500italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-700 - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: url('/wp-content/themes/setup-gp/assets/fonts/source-sans-pro-v21-latin-700.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('/wp-content/themes/setup-gp/assets/fonts/source-sans-pro-v21-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/wp-content/themes/setup-gp/assets/fonts/source-sans-pro-v21-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/wp-content/themes/setup-gp/assets/fonts/source-sans-pro-v21-latin-700.woff') format('woff'), /* Modern Browsers */
-       url('/wp-content/themes/setup-gp/assets/fonts/source-sans-pro-v21-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/wp-content/themes/setup-gp/assets/fonts/source-sans-pro-v21-latin-700.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+  src: url('/wp-content/themes/setup-gp/assets/fonts/roboto-v30-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-/* vollkorn-regular - latin */
+/* roboto-700italic - latin */
 
 @font-face {
-  font-family: 'Vollkorn';
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/roboto-v30-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-900 - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/roboto-v30-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-900italic - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/roboto-v30-latin-900italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* eb-garamond-regular - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'EB Garamond';
   font-style: normal;
   font-weight: 400;
-  src: url('/wp-content/themes/setup-gp/assets/fonts/vollkorn-v21-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('/wp-content/themes/setup-gp/assets/fonts/vollkorn-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/wp-content/themes/setup-gp/assets/fonts/vollkorn-v21-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/wp-content/themes/setup-gp/assets/fonts/vollkorn-v21-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('/wp-content/themes/setup-gp/assets/fonts/vollkorn-v21-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/wp-content/themes/setup-gp/assets/fonts/vollkorn-v21-latin-regular.svg#Vollkorn') format('svg'); /* Legacy iOS */
+  src: url('/wp-content/themes/setup-gp/assets/fonts/eb-garamond-v26-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-/* vollkorn-600 - latin */
+/* eb-garamond-italic - latin */
 
 @font-face {
-  font-family: 'Vollkorn';
-  font-style: normal;
-  font-weight: 600;
-  src: url('/wp-content/themes/setup-gp/assets/fonts/vollkorn-v21-latin-600.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('/wp-content/themes/setup-gp/assets/fonts/vollkorn-v21-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/wp-content/themes/setup-gp/assets/fonts/vollkorn-v21-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/wp-content/themes/setup-gp/assets/fonts/vollkorn-v21-latin-600.woff') format('woff'), /* Modern Browsers */
-       url('/wp-content/themes/setup-gp/assets/fonts/vollkorn-v21-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/wp-content/themes/setup-gp/assets/fonts/vollkorn-v21-latin-600.svg#Vollkorn') format('svg'); /* Legacy iOS */
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'EB Garamond';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/eb-garamond-v26-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-body {}
+/* eb-garamond-500 - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/eb-garamond-v26-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* eb-garamond-500italic - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'EB Garamond';
+  font-style: italic;
+  font-weight: 500;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/eb-garamond-v26-latin-500italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* eb-garamond-600 - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/eb-garamond-v26-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* eb-garamond-600italic - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'EB Garamond';
+  font-style: italic;
+  font-weight: 600;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/eb-garamond-v26-latin-600italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* eb-garamond-700 - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/eb-garamond-v26-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* eb-garamond-700italic - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'EB Garamond';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/eb-garamond-v26-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* eb-garamond-800 - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/eb-garamond-v26-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* eb-garamond-800italic - latin */
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'EB Garamond';
+  font-style: italic;
+  font-weight: 800;
+  src: url('/wp-content/themes/setup-gp/assets/fonts/eb-garamond-v26-latin-800italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+	color: var(--main);
+}
+
+p,
+ul,
+ol {
+    margin-bottom: 1em;
+}
 
 a,
 a:link,
@@ -359,6 +574,11 @@ span.gb-button:active {
 	outline: 1px dashed #e3242b;
 }
 
+.tooltip {
+	padding-left: 1rem;
+	border-left: 5px solid #e3242b;
+}
+
 .codetip {
   margin-bottom: 1.125rem;
   font-size: 0.75rem;
@@ -368,8 +588,22 @@ span.gb-button:active {
 	padding: 0.5rem;
 }
 
+.dash {
+	border: 1px dashed #fff;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	background-color: rgba(0,0,0,.5);
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 .site-main .wp-block-group__inner-container {
 	padding: 0;
+}
+
+.youtube-video iframe:before {
+	padding-top: 56.25%;
 }
 
 .textsize-intro,
@@ -377,6 +611,7 @@ span.gb-button:active {
 .intro-main,
 .intro-medium,
 .intro-medium2x,
+.intro-medium3x,
 .intro-medium4x,
 .intro,
 .intro-large {
@@ -420,29 +655,38 @@ span.gb-button:active {
 }
 
 .font-serif {
-	font-family: "Vollkorn", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: "EB Garamond", serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	letter-spacing: -0.05em;
 }
 
 .font-sansserif {
-	font-family: "Open Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
-
-.font-sourcesanspro {
-	font-family: "Source Sans Pro", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: "Roboto", sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .font-opensans {
-	font-family: "Open Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: "Open Sans", sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.font-vollkorn {
-	font-family: "Vollkorn", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+.font-roboto {
+	font-family: "Roboto", sans-serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.font-ebgaramond {
+	font-family: "EB Garamond", serif, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	letter-spacing: -0.05em;
 }
 
 .intro {
-  font-size: 1.875rem;
+  font-size: 1.5rem;
   line-height: 2rem;
+}
+
+@media (min-width: 512px) {
+
+  .intro {
+    font-size: 1.875rem;
+    line-height: 2rem;
+  }
 }
 
 @media (min-width: 1088px) {
@@ -453,22 +697,108 @@ span.gb-button:active {
   }
 }
 
-.textsize-tiny {
-  font-size: 0.625rem;
-  line-height: 0.8rem;
+.intro.lead {
+  margin-top: 1.5rem;
 }
 
-.textsize-smaller,
+@media (min-width: 512px) {
+
+  .intro.lead {
+    margin-top: 1.875rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .intro.lead {
+    margin-top: 2rem;
+  }
+}
+
+.intro.space {
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 512px) {
+
+  .intro.space {
+    margin-bottom: 1.875rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .intro.space {
+    margin-bottom: 2rem;
+  }
+}
+
 .textsize-reference {
   font-size: 0.75rem;
   line-height: 1rem;
 }
 
+.textsize-reference.lead {
+  margin-top: 0.75rem;
+}
+
+.textsize-reference.space {
+  margin-bottom: 0.75rem;
+}
+
+.textsize-meta {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.textsize-meta.lead {
+  margin-top: 0.875rem;
+}
+
+.textsize-meta.space {
+  margin-bottom: 0.875rem;
+}
+
+.textsize-tiny {
+  font-size: 0.625rem;
+  line-height: 0.8rem;
+}
+
+.textsize-tiny.lead {
+  margin-top: 0.625rem;
+}
+
+.textsize-tiny.space {
+  margin-bottom: 0.625rem;
+}
+
+.textsize-smaller {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.textsize-smaller.lead {
+  margin-top: 0.75rem;
+}
+
+.textsize-smaller.space {
+  margin-bottom: 0.75rem;
+}
+
 .textsize-small,
-.textsize-meta,
 .intro-small {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.textsize-small.lead,
+	.intro-small.lead {
+  margin-top: 0.875rem;
+}
+
+.textsize-small.space,
+	.intro-small.space {
+  margin-bottom: 0.875rem;
 }
 
 .textsize-base,
@@ -477,12 +807,34 @@ h6 {
   line-height: 1.5rem;
 }
 
+.textsize-base.lead,
+	h6.lead {
+  margin-top: 1rem;
+}
+
+.textsize-base.space,
+	h6.space {
+  margin-bottom: 1rem;
+}
+
 .textsize-main,
 h5,
 .intro-main {
   font-size: 1.125rem;
   line-height: 1.75rem;
 	color: var(--main);
+}
+
+.textsize-main.lead,
+	h5.lead,
+	.intro-main.lead {
+  margin-top: 1.125rem;
+}
+
+.textsize-main.space,
+	h5.space,
+	.intro-main.space {
+  margin-bottom: 1.125rem;
 }
 
 .textsize-medium,
@@ -503,6 +855,36 @@ h4,
   }
 }
 
+.textsize-medium.lead,
+	h4.lead,
+	.intro-medium.lead {
+  margin-top: 1.125rem;
+}
+
+@media (min-width: 1088px) {
+
+  .textsize-medium.lead,
+	h4.lead,
+	.intro-medium.lead {
+    margin-top: 1.25rem;
+  }
+}
+
+.textsize-medium.space,
+	h4.space,
+	.intro-medium.space {
+  margin-bottom: 1.125rem;
+}
+
+@media (min-width: 1088px) {
+
+  .textsize-medium.space,
+	h4.space,
+	.intro-medium.space {
+    margin-bottom: 1.25rem;
+  }
+}
+
 .textsize-medium2x,
 h3,
 .intro-medium2x {
@@ -520,21 +902,78 @@ h3,
   }
 }
 
-.textsize-medium3x {
+.textsize-medium2x.lead,
+	h3.lead,
+	.intro-medium2x.lead {
+  margin-top: 1.25rem;
+}
+
+@media (min-width: 1088px) {
+
+  .textsize-medium2x.lead,
+	h3.lead,
+	.intro-medium2x.lead {
+    margin-top: 1.5rem;
+  }
+}
+
+.textsize-medium2x.space,
+	h3.space,
+	.intro-medium2x.space {
+  margin-bottom: 1.25rem;
+}
+
+@media (min-width: 1088px) {
+
+  .textsize-medium2x.space,
+	h3.space,
+	.intro-medium2x.space {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.textsize-medium3x,
+.intro-medium3x {
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
 @media (min-width: 1088px) {
 
-  .textsize-medium3x {
+  .textsize-medium3x,
+.intro-medium3x {
     font-size: 1.875rem;
     line-height: 2rem;
   }
 }
 
+.textsize-medium3x.lead,
+	.intro-medium3x.lead {
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 1088px) {
+
+  .textsize-medium3x.lead,
+	.intro-medium3x.lead {
+    margin-top: 1.875rem;
+  }
+}
+
+.textsize-medium3x.space,
+	.intro-medium3x.space {
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 1088px) {
+
+  .textsize-medium3x.space,
+	.intro-medium3x.space {
+    margin-bottom: 1.875rem;
+  }
+}
+
 .textsize-medium4x,
-.textsize-intro,
 .intro-medium4x {
   font-size: 1.875rem;
   line-height: 2rem;
@@ -543,10 +982,35 @@ h3,
 @media (min-width: 1088px) {
 
   .textsize-medium4x,
-.textsize-intro,
 .intro-medium4x {
     font-size: 2rem;
     line-height: 2.25rem;
+  }
+}
+
+.textsize-medium4x.lead,
+	.intro-medium4x.lead {
+  margin-top: 1.875rem;
+}
+
+@media (min-width: 1088px) {
+
+  .textsize-medium4x.lead,
+	.intro-medium4x.lead {
+    margin-top: 2rem;
+  }
+}
+
+.textsize-medium4x.space,
+	.intro-medium4x.space {
+  margin-bottom: 1.875rem;
+}
+
+@media (min-width: 1088px) {
+
+  .textsize-medium4x.space,
+	.intro-medium4x.space {
+    margin-bottom: 2rem;
   }
 }
 
@@ -587,6 +1051,72 @@ h2,
   }
 }
 
+.textsize-large.lead,
+	h2.lead,
+	.intro-large.lead {
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 512px) {
+
+  .textsize-large.lead,
+	h2.lead,
+	.intro-large.lead {
+    margin-top: 1.875rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .textsize-large.lead,
+	h2.lead,
+	.intro-large.lead {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .textsize-large.lead,
+	h2.lead,
+	.intro-large.lead {
+    margin-top: 2.25rem;
+  }
+}
+
+.textsize-large.space,
+	h2.space,
+	.intro-large.space {
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 512px) {
+
+  .textsize-large.space,
+	h2.space,
+	.intro-large.space {
+    margin-bottom: 1.875rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .textsize-large.space,
+	h2.space,
+	.intro-large.space {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .textsize-large.space,
+	h2.space,
+	.intro-large.space {
+    margin-bottom: 2.25rem;
+  }
+}
+
 .textsize-larger,
 h1 {
   font-size: 1.875rem;
@@ -620,6 +1150,64 @@ h1 {
   }
 }
 
+.textsize-larger.lead,
+	h1.lead {
+  margin-top: 1.875rem;
+}
+
+@media (min-width: 512px) {
+
+  .textsize-larger.lead,
+	h1.lead {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .textsize-larger.lead,
+	h1.lead {
+    margin-top: 2.25rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .textsize-larger.lead,
+	h1.lead {
+    margin-top: 3rem;
+  }
+}
+
+.textsize-larger.space,
+	h1.space {
+  margin-bottom: 1.875rem;
+}
+
+@media (min-width: 512px) {
+
+  .textsize-larger.space,
+	h1.space {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .textsize-larger.space,
+	h1.space {
+    margin-bottom: 2.25rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .textsize-larger.space,
+	h1.space {
+    margin-bottom: 3rem;
+  }
+}
+
 .textsize-largest {
   font-size: 2rem;
   line-height: 2.25rem;
@@ -646,6 +1234,56 @@ h1 {
   .textsize-largest {
     font-size: 3.75rem;
     line-height: 1;
+  }
+}
+
+.textsize-largest.lead {
+  margin-top: 2rem;
+}
+
+@media (min-width: 512px) {
+
+  .textsize-largest.lead {
+    margin-top: 2.25rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .textsize-largest.lead {
+    margin-top: 3rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .textsize-largest.lead {
+    margin-top: 3.75rem;
+  }
+}
+
+.textsize-largest.space {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 512px) {
+
+  .textsize-largest.space {
+    margin-bottom: 2.25rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .textsize-largest.space {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .textsize-largest.space {
+    margin-bottom: 3.75rem;
   }
 }
 
@@ -678,6 +1316,56 @@ h1 {
   }
 }
 
+.textsize-huge.lead {
+  margin-top: 2.25rem;
+}
+
+@media (min-width: 512px) {
+
+  .textsize-huge.lead {
+    margin-top: 3rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .textsize-huge.lead {
+    margin-top: 3.75rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .textsize-huge.lead {
+    margin-top: 4.5rem;
+  }
+}
+
+.textsize-huge.space {
+  margin-bottom: 2.25rem;
+}
+
+@media (min-width: 512px) {
+
+  .textsize-huge.space {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .textsize-huge.space {
+    margin-bottom: 3.75rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .textsize-huge.space {
+    margin-bottom: 4.5rem;
+  }
+}
+
 .textsize-huge2x {
   font-size: 3rem;
   line-height: 1;
@@ -707,6 +1395,56 @@ h1 {
   }
 }
 
+.textsize-huge2x.lead {
+  margin-top: 3rem;
+}
+
+@media (min-width: 512px) {
+
+  .textsize-huge2x.lead {
+    margin-top: 3.75rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .textsize-huge2x.lead {
+    margin-top: 4.5rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .textsize-huge2x.lead {
+    margin-top: 6rem;
+  }
+}
+
+.textsize-huge2x.space {
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 512px) {
+
+  .textsize-huge2x.space {
+    margin-bottom: 3.75rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .textsize-huge2x.space {
+    margin-bottom: 4.5rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .textsize-huge2x.space {
+    margin-bottom: 6rem;
+  }
+}
+
 .textsize-gigantic {
   font-size: 3.75rem;
   line-height: 1;
@@ -733,6 +1471,56 @@ h1 {
   .textsize-gigantic {
     font-size: 8rem;
     line-height: 1;
+  }
+}
+
+.textsize-gigantic.lead {
+  margin-top: 3.75rem;
+}
+
+@media (min-width: 512px) {
+
+  .textsize-gigantic.lead {
+    margin-top: 4.5rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .textsize-gigantic.lead {
+    margin-top: 6rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .textsize-gigantic.lead {
+    margin-top: 8rem;
+  }
+}
+
+.textsize-gigantic.space {
+  margin-bottom: 3.75rem;
+}
+
+@media (min-width: 512px) {
+
+  .textsize-gigantic.space {
+    margin-bottom: 4.5rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .textsize-gigantic.space {
+    margin-bottom: 6rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .textsize-gigantic.space {
+    margin-bottom: 8rem;
   }
 }
 
@@ -1128,6 +1916,286 @@ h1 {
 	justify-content: space-between;
 }
 
+.edges-right-top {
+  padding-top: 2rem;
+}
+
+@media (min-width: 832px) {
+
+  .edges-right-top {
+    padding-top: 0;
+    padding-right: 2rem;
+  }
+}
+
+.edges-right-bottom {
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 832px) {
+
+  .edges-right-bottom {
+    padding-bottom: 0;
+    padding-right: 2rem;
+  }
+}
+
+.edges-left-top {
+  padding-top: 2rem;
+}
+
+@media (min-width: 832px) {
+
+  .edges-left-top {
+    padding-top: 0;
+    padding-left: 2rem;
+  }
+}
+
+.edges-left-bottom {
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 832px) {
+
+  .edges-left-bottom {
+    padding-bottom: 0;
+    padding-left: 2rem;
+  }
+}
+
+.edges {
+  padding: 2rem;
+}
+
+.edges-tiny {
+  padding: 0.625rem;
+}
+
+.edges-small {
+  padding: 0.875rem;
+}
+
+.edges-medium {
+  padding: 1.25rem;
+}
+
+.edges-large {
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+@media (min-width: 1088px) {
+
+  .edges-large {
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+  }
+}
+
+.edges-larger {
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+@media (min-width: 832px) {
+
+  .edges-larger {
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .edges-larger {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+.edges-largest {
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+@media (min-width: 512px) {
+
+  .edges-largest {
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .edges-largest {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .edges-largest {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+  }
+}
+
+.edges-huge {
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+@media (min-width: 512px) {
+
+  .edges-huge {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .edges-huge {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .edges-huge {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+}
+
+.edges-huge2x {
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+@media (min-width: 512px) {
+
+  .edges-huge2x {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .edges-huge2x {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .edges-huge2x {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.edges-gigantic {
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+@media (min-width: 512px) {
+
+  .edges-gigantic {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .edges-gigantic {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .edges-gigantic {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
+.edges.noedge-vertical,
+.edges-tiny.noedge-vertical,
+.edges-small.noedge-vertical,
+.edges-medium.noedge-vertical,
+.edges-large.noedge-vertical,
+.edges-larger.noedge-vertical,
+.edges-largest.noedge-vertical,
+.edges-huge.noedge-vertical,
+.edges-huge2x.noedge-vertical,
+.edges-gigantic.noedge-vertical {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.edges.noedge-horizontal,
+.edges-tiny.noedge-horizontal,
+.edges-small.noedge-horizontal,
+.edges-medium.noedge-horizontal,
+.edges-large.noedge-horizontal,
+.edges-larger.noedge-horizontal,
+.edges-largest.noedge-horizontal,
+.edges-huge.noedge-horizontal,
+.edges-huge2x.noedge-horizontal,
+.edges-gigantic.noedge-horizontal {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.edges.noedge-top,
+.edges-tiny.noedge-top,
+.edges-small.noedge-top,
+.edges-medium.noedge-top,
+.edges-large.noedge-top,
+.edges-larger.noedge-top,
+.edges-largest.noedge-top,
+.edges-huge.noedge-top,
+.edges-huge2x.noedge-top,
+.edges-gigantic.noedge-top {
+  padding-top: 0px;
+}
+
+.edges.noedge-bottom,
+.edges-tiny.noedge-bottom,
+.edges-small.noedge-bottom,
+.edges-medium.noedge-bottom,
+.edges-large.noedge-bottom,
+.edges-larger.noedge-bottom,
+.edges-largest.noedge-bottom,
+.edges-huge.noedge-bottom,
+.edges-huge2x.noedge-bottom,
+.edges-gigantic.noedge-bottom {
+  padding-bottom: 0px;
+}
+
 .lead-intro {
   margin-top: 2rem;
 }
@@ -1241,6 +2309,10 @@ h1 {
 }
 
 .space-base {
+  margin-bottom: 1rem;
+}
+
+.space-main {
   margin-bottom: 1.125rem;
 }
 
@@ -2136,7 +3208,7 @@ body .nomargin-left {
 .nopadr,
 .padr-zero,
 .padr-none {
-  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .group-nopad.wp-block-group > .wp-block-group__inner-container,
@@ -3002,286 +4074,6 @@ body .nomargin-left {
   }
 }
 
-.edges-right-top {
-  padding-top: 2rem;
-}
-
-@media (min-width: 832px) {
-
-  .edges-right-top {
-    padding-top: 0;
-    padding-right: 2rem;
-  }
-}
-
-.edges-right-bottom {
-  padding-bottom: 2rem;
-}
-
-@media (min-width: 832px) {
-
-  .edges-right-bottom {
-    padding-bottom: 0;
-    padding-right: 2rem;
-  }
-}
-
-.edges-left-top {
-  padding-top: 2rem;
-}
-
-@media (min-width: 832px) {
-
-  .edges-left-top {
-    padding-top: 0;
-    padding-left: 2rem;
-  }
-}
-
-.edges-left-bottom {
-  padding-bottom: 2rem;
-}
-
-@media (min-width: 832px) {
-
-  .edges-left-bottom {
-    padding-bottom: 0;
-    padding-left: 2rem;
-  }
-}
-
-.edges {
-  padding: 2rem;
-}
-
-.edges-tiny {
-  padding: 0.625rem;
-}
-
-.edges-small {
-  padding: 0.875rem;
-}
-
-.edges-medium {
-  padding: 1.25rem;
-}
-
-.edges-large {
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-}
-
-@media (min-width: 1088px) {
-
-  .edges-large {
-    padding-top: 2.25rem;
-    padding-bottom: 2.25rem;
-  }
-}
-
-.edges-larger {
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-}
-
-@media (min-width: 832px) {
-
-  .edges-larger {
-    padding-top: 2.25rem;
-    padding-bottom: 2.25rem;
-  }
-}
-
-@media (min-width: 1088px) {
-
-  .edges-larger {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-}
-
-.edges-largest {
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-}
-
-@media (min-width: 512px) {
-
-  .edges-largest {
-    padding-top: 2.25rem;
-    padding-bottom: 2.25rem;
-  }
-}
-
-@media (min-width: 832px) {
-
-  .edges-largest {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-}
-
-@media (min-width: 1088px) {
-
-  .edges-largest {
-    padding-top: 3.75rem;
-    padding-bottom: 3.75rem;
-  }
-}
-
-.edges-huge {
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-}
-
-@media (min-width: 512px) {
-
-  .edges-huge {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-}
-
-@media (min-width: 832px) {
-
-  .edges-huge {
-    padding-top: 3.75rem;
-    padding-bottom: 3.75rem;
-  }
-}
-
-@media (min-width: 1088px) {
-
-  .edges-huge {
-    padding-top: 4.5rem;
-    padding-bottom: 4.5rem;
-  }
-}
-
-.edges-huge2x {
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-}
-
-@media (min-width: 512px) {
-
-  .edges-huge2x {
-    padding-top: 3.75rem;
-    padding-bottom: 3.75rem;
-  }
-}
-
-@media (min-width: 832px) {
-
-  .edges-huge2x {
-    padding-top: 4.5rem;
-    padding-bottom: 4.5rem;
-  }
-}
-
-@media (min-width: 1088px) {
-
-  .edges-huge2x {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-}
-
-.edges-gigantic {
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-}
-
-@media (min-width: 512px) {
-
-  .edges-gigantic {
-    padding-top: 4.5rem;
-    padding-bottom: 4.5rem;
-  }
-}
-
-@media (min-width: 832px) {
-
-  .edges-gigantic {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-}
-
-@media (min-width: 1088px) {
-
-  .edges-gigantic {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-  }
-}
-
-.edges.noedge-vertical,
-.edges-tiny.noedge-vertical,
-.edges-small.noedge-vertical,
-.edges-medium.noedge-vertical,
-.edges-large.noedge-vertical,
-.edges-larger.noedge-vertical,
-.edges-largest.noedge-vertical,
-.edges-huge.noedge-vertical,
-.edges-huge2x.noedge-vertical,
-.edges-gigantic.noedge-vertical {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-.edges.noedge-horizontal,
-.edges-tiny.noedge-horizontal,
-.edges-small.noedge-horizontal,
-.edges-medium.noedge-horizontal,
-.edges-large.noedge-horizontal,
-.edges-larger.noedge-horizontal,
-.edges-largest.noedge-horizontal,
-.edges-huge.noedge-horizontal,
-.edges-huge2x.noedge-horizontal,
-.edges-gigantic.noedge-horizontal {
-  padding-right: 0px;
-  padding-left: 0px;
-}
-
-.edges.noedge-top,
-.edges-tiny.noedge-top,
-.edges-small.noedge-top,
-.edges-medium.noedge-top,
-.edges-large.noedge-top,
-.edges-larger.noedge-top,
-.edges-largest.noedge-top,
-.edges-huge.noedge-top,
-.edges-huge2x.noedge-top,
-.edges-gigantic.noedge-top {
-  padding-top: 0px;
-}
-
-.edges.noedge-bottom,
-.edges-tiny.noedge-bottom,
-.edges-small.noedge-bottom,
-.edges-medium.noedge-bottom,
-.edges-large.noedge-bottom,
-.edges-larger.noedge-bottom,
-.edges-largest.noedge-bottom,
-.edges-huge.noedge-bottom,
-.edges-huge2x.noedge-bottom,
-.edges-gigantic.noedge-bottom {
-  padding-bottom: 0px;
-}
-
 .grid-2columns,
 .grid-3columns,
 .grid-4columns,
@@ -4090,20 +4882,6 @@ body .nomargin-left {
 	box-shadow: var(--shadow-floater);
 }
 
-.tooltip {
-	padding-left: 1rem;
-	border-left: 5px solid #e3242b;
-}
-
-.codetip {
-  margin-bottom: 1.125rem;
-  font-size: 0.75rem;
-  line-height: 1rem;
-	outline: var(--line-borderwidth) solid var(--line-color);
-	outline-color: var(--lightest-color);
-	padding: 0.5rem;
-}
-
 .mediainfo,
 .mediainfo.mediainfo-vertical
 .infomedia.mediainfo-vertical {
@@ -4146,6 +4924,18 @@ body .nomargin-left {
 			grid-template-areas: 
 				"info media";
 		}
+
+		.mediainfo.overlap,
+		.infomedia.overlap {
+			grid-template-columns: auto;
+			grid-template: "infomedia";
+		}
+			.mediainfo.overlap > .media,
+			.infomedia.overlap > .media,
+			.mediainfo.overlap > .info,
+			.infomedia.overlap > .info {
+				grid-area: infomedia;
+			}
 
 		.mediainfo.gap,
 		.infomedia.gap {
@@ -4260,6 +5050,1001 @@ body .nomargin-left {
 
 .media {
 	grid-area: media;
+}
+
+.multiset {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+	font-weight: 400;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+.multiset.level1,
+	.multiset.level1 p,
+	.multiset.level1 ul,
+	.multiset.level1 ol,
+	.multiset p.level1,
+	.multiset ul.level1,
+	.multiset ol.level1 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level1,
+	.multiset.level1 p,
+	.multiset.level1 ul,
+	.multiset.level1 ol,
+	.multiset p.level1,
+	.multiset ul.level1,
+	.multiset ol.level1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+.multiset.level2,
+	.multiset.level2 p,
+	.multiset.level2 ul,
+	.multiset.level2 ol,
+	.multiset p.level2,
+	.multiset ul.level2,
+	.multiset ol.level2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level2,
+	.multiset.level2 p,
+	.multiset.level2 ul,
+	.multiset.level2 ol,
+	.multiset p.level2,
+	.multiset ul.level2,
+	.multiset ol.level2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+.multiset.level3,
+	.multiset.level3 p,
+	.multiset.level3 ul,
+	.multiset.level3 ol,
+	.multiset p.level3,
+	.multiset ul.level3,
+	.multiset ol.level3 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+	color: var(--main);
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level3,
+	.multiset.level3 p,
+	.multiset.level3 ul,
+	.multiset.level3 ol,
+	.multiset p.level3,
+	.multiset ul.level3,
+	.multiset ol.level3 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+.multiset.level4,
+	.multiset.level4 p,
+	.multiset.level4 ul,
+	.multiset.level4 ol,
+	.multiset p.level4,
+	.multiset ul.level4,
+	.multiset ol.level4 {
+  margin-bottom: 0.875rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level4,
+	.multiset.level4 p,
+	.multiset.level4 ul,
+	.multiset.level4 ol,
+	.multiset p.level4,
+	.multiset ul.level4,
+	.multiset ol.level4 {
+    margin-bottom: 0.875rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+.multiset.level5,
+	.multiset.level5 p,
+	.multiset.level5 ul,
+	.multiset.level5 ol,
+	.multiset p.level5,
+	.multiset ul.level5,
+	.multiset ol.level5 {
+  margin-bottom: 0.875rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level5,
+	.multiset.level5 p,
+	.multiset.level5 ul,
+	.multiset.level5 ol,
+	.multiset p.level5,
+	.multiset ul.level5,
+	.multiset ol.level5 {
+    margin-bottom: 0.875rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+.multiset ul.list,
+.multiset ol.list,
+.multiset ul.list.level1,
+.multiset ol.list.level1 {
+  margin-left: 0px;
+  padding-left: 1.25rem;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset ul.list,
+.multiset ol.list,
+.multiset ul.list.level1,
+.multiset ol.list.level1 {
+    padding-left: 1.875rem;
+  }
+}
+
+.multiset ul.list,
+.multiset ol.list,
+.multiset ul.list.level1,
+.multiset ol.list.level1 {
+	list-style-position: outside;
+	margin-bottom: 1em;
+}
+
+.multiset ul.list {
+	list-style-type: disc;
+}
+
+.multiset ol.list {
+	list-style-type: decimal;
+}
+
+.multiset.level1 ul.list,
+	.multiset.level1 ol.list,
+	.multiset ul.list.level1,
+	.multiset ol.list.level1 {
+  padding-left: 1.25rem;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level1 ul.list,
+	.multiset.level1 ol.list,
+	.multiset ul.list.level1,
+	.multiset ol.list.level1 {
+    padding-left: 1.875rem;
+  }
+}
+
+.multiset.level2 ul.list,
+	.multiset.level2 ol.list,
+	.multiset ul.list.level2,
+	.multiset ol.list.level2 {
+  padding-left: 1.25rem;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level2 ul.list,
+	.multiset.level2 ol.list,
+	.multiset ul.list.level2,
+	.multiset ol.list.level2 {
+    padding-left: 1.5rem;
+  }
+}
+
+.multiset.level3 ul.list,
+	.multiset.level3 ol.list,
+	.multiset ul.list.level3,
+	.multiset ol.list.level3 {
+  padding-left: 1.125rem;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level3 ul.list,
+	.multiset.level3 ol.list,
+	.multiset ul.list.level3,
+	.multiset ol.list.level3 {
+    padding-left: 1.25rem;
+  }
+}
+
+.multiset.level4 ul.list,
+	.multiset.level4 ol.list,
+	.multiset ul.list.level4,
+	.multiset ol.list.level4 {
+  padding-left: 1.125rem;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level4 ul.list,
+	.multiset.level4 ol.list,
+	.multiset ul.list.level4,
+	.multiset ol.list.level4 {
+    padding-left: 1.125rem;
+  }
+}
+
+.multiset.level5 ul.list,
+	.multiset.level5 ol.list,
+	.multiset ul.list.level5,
+	.multiset ol.list.level5 {
+  padding-left: 1.125rem;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level5 ul.list,
+	.multiset.level5 ol.list,
+	.multiset ul.list.level5,
+	.multiset ol.list.level5 {
+    padding-left: 1.125rem;
+  }
+}
+
+.multiset .overhead,
+.multiset .level1.overhead {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+	font-weight: 700;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset .overhead,
+.multiset .level1.overhead {
+    font-size: 1.875rem;
+    line-height: 2rem;
+  }
+}
+
+.multiset.level1 .overhead,
+	.multiset .level1.overhead {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level1 .overhead,
+	.multiset .level1.overhead {
+    font-size: 1.875rem;
+    line-height: 2rem;
+  }
+}
+
+.multiset.level2 .overhead,
+	.multiset .level2.overhead {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level2 .overhead,
+	.multiset .level2.overhead {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+.multiset.level3 .overhead,
+	.multiset .level3.overhead {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+	color: var(--main);
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level3 .overhead,
+	.multiset .level3.overhead {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+.multiset.level4 .overhead,
+	.multiset .level4.overhead {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+	color: var(--main);
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level4 .overhead,
+	.multiset .level4.overhead {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+.multiset.level5 .overhead,
+	.multiset .level5.overhead {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level5 .overhead,
+	.multiset .level5.overhead {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+.multiset .maintitle,
+.multiset .level1.maintitle {
+  font-size: 3rem;
+  line-height: 1;
+	font-weight: 700;
+}
+
+@media (min-width: 512px) {
+
+  .multiset .maintitle,
+.multiset .level1.maintitle {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .multiset .maintitle,
+.multiset .level1.maintitle {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .multiset .maintitle,
+.multiset .level1.maintitle {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+
+.multiset.level1 .maintitle,
+	.multiset .level1.maintitle {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+@media (min-width: 512px) {
+
+  .multiset.level1 .maintitle,
+	.multiset .level1.maintitle {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .multiset.level1 .maintitle,
+	.multiset .level1.maintitle {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level1 .maintitle,
+	.multiset .level1.maintitle {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+
+.multiset.level2 .maintitle,
+	.multiset .level2.maintitle {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+@media (min-width: 512px) {
+
+  .multiset.level2 .maintitle,
+	.multiset .level2.maintitle {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .multiset.level2 .maintitle,
+	.multiset .level2.maintitle {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level2 .maintitle,
+	.multiset .level2.maintitle {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+.multiset.level3 .maintitle,
+	.multiset .level3.maintitle {
+  font-size: 2rem;
+  line-height: 2.25rem;
+}
+
+@media (min-width: 512px) {
+
+  .multiset.level3 .maintitle,
+	.multiset .level3.maintitle {
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .multiset.level3 .maintitle,
+	.multiset .level3.maintitle {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level3 .maintitle,
+	.multiset .level3.maintitle {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+.multiset.level4 .maintitle,
+	.multiset .level4.maintitle {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+@media (min-width: 512px) {
+
+  .multiset.level4 .maintitle,
+	.multiset .level4.maintitle {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .multiset.level4 .maintitle,
+	.multiset .level4.maintitle {
+    font-size: 1.875rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level4 .maintitle,
+	.multiset .level4.maintitle {
+    font-size: 1.875rem;
+    line-height: 2rem;
+  }
+}
+
+.multiset.level5 .maintitle,
+	.multiset .level5.maintitle {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+@media (min-width: 512px) {
+
+  .multiset.level5 .maintitle,
+	.multiset .level5.maintitle {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .multiset.level5 .maintitle,
+	.multiset .level5.maintitle {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level5 .maintitle,
+	.multiset .level5.maintitle {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+.multiset .subtitle,
+.multiset .level1.subtitle {
+  font-size: 1.875rem;
+  line-height: 2rem;
+	font-weight: 500;
+}
+
+@media (min-width: 512px) {
+
+  .multiset .subtitle,
+.multiset .level1.subtitle {
+    font-size: 1.875rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .multiset .subtitle,
+.multiset .level1.subtitle {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .multiset .subtitle,
+.multiset .level1.subtitle {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+.multiset.level1 .subtitle,
+	.multiset .level1.subtitle {
+  font-size: 1.875rem;
+  line-height: 2rem;
+}
+
+@media (min-width: 512px) {
+
+  .multiset.level1 .subtitle,
+	.multiset .level1.subtitle {
+    font-size: 1.875rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .multiset.level1 .subtitle,
+	.multiset .level1.subtitle {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level1 .subtitle,
+	.multiset .level1.subtitle {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+.multiset.level2 .subtitle,
+	.multiset .level2.subtitle {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+@media (min-width: 512px) {
+
+  .multiset.level2 .subtitle,
+	.multiset .level2.subtitle {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .multiset.level2 .subtitle,
+	.multiset .level2.subtitle {
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level2 .subtitle,
+	.multiset .level2.subtitle {
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
+}
+
+.multiset.level3 .subtitle,
+	.multiset .level3.subtitle {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+@media (min-width: 512px) {
+
+  .multiset.level3 .subtitle,
+	.multiset .level3.subtitle {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .multiset.level3 .subtitle,
+	.multiset .level3.subtitle {
+    font-size: 1.875rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level3 .subtitle,
+	.multiset .level3.subtitle {
+    font-size: 1.875rem;
+    line-height: 2rem;
+  }
+}
+
+.multiset.level4 .subtitle,
+	.multiset .level4.subtitle {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+@media (min-width: 512px) {
+
+  .multiset.level4 .subtitle,
+	.multiset .level4.subtitle {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .multiset.level4 .subtitle,
+	.multiset .level4.subtitle {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level4 .subtitle,
+	.multiset .level4.subtitle {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+.multiset.level5 .subtitle,
+	.multiset .level5.subtitle {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+	color: var(--main);
+}
+
+@media (min-width: 512px) {
+
+  .multiset.level5 .subtitle,
+	.multiset .level5.subtitle {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 832px) {
+
+  .multiset.level5 .subtitle,
+	.multiset .level5.subtitle {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level5 .subtitle,
+	.multiset .level5.subtitle {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+.multiset .meta {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+	font-weight: 500;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset .meta {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+.multiset .cta.gb-button {
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+	font-weight: 700;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset .cta.gb-button {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+.multiset.level1 .cta.gb-button,
+	.multiset .level1.cta.gb-button {
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level1 .cta.gb-button,
+	.multiset .level1.cta.gb-button {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+.multiset.level2 .cta.gb-button,
+	.multiset .level2.cta.gb-button {
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+	color: var(--main);
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level2 .cta.gb-button,
+	.multiset .level2.cta.gb-button {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+.multiset.level3 .cta.gb-button,
+	.multiset .level3.cta.gb-button {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+	color: var(--main);
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level3 .cta.gb-button,
+	.multiset .level3.cta.gb-button {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+.multiset.level4 .cta.gb-button,
+	.multiset .level4.cta.gb-button {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+	color: var(--main);
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level4 .cta.gb-button,
+	.multiset .level4.cta.gb-button {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+.multiset.level5 .cta.gb-button,
+	.multiset .level5.cta.gb-button {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level5 .cta.gb-button,
+	.multiset .level5.cta.gb-button {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+.multiset .cta.gb-button, 
+.multiset a.cta.gb-button, 
+.multiset a.cta.gb-button:link, 
+.multiset a.cta.gb-button:visited, 
+.multiset span.cta.gb-button, 
+.multiset span.cta.gb-button:link, 
+.multiset span.cta.gb-button:visited {
+	color: var(--white);
+}
+
+.multiset a.cta.gb-button:hover, 
+.multiset a.cta.gb-button:active, 
+.multiset span.cta.gb-button:hover, 
+.multiset span.cta.gb-button:active {
+	color: var(--white);
+}
+
+.multiset .summary {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+	font-weight: 400;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset .summary {
+    font-size: 1.875rem;
+    line-height: 2rem;
+    font-weight: 300;
+  }
+}
+
+.multiset.level1 .summary,
+	.multiset .level1.summary {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level1 .summary,
+	.multiset .level1.summary {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+.multiset.level2 .summary,
+	.multiset .level2.summary {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level2 .summary,
+	.multiset .level2.summary {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+.multiset.level3 .summary,
+	.multiset .level3.summary {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+	color: var(--main);
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level3 .summary,
+	.multiset .level3.summary {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+.multiset.level4 .summary,
+	.multiset .level4.summary {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+	color: var(--main);
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level4 .summary,
+	.multiset .level4.summary {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+.multiset.level5 .summary,
+	.multiset .level5.summary {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+	color: var(--main);
+}
+
+@media (min-width: 1088px) {
+
+  .multiset.level5 .summary,
+	.multiset .level5.summary {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
 .main-navigation {}

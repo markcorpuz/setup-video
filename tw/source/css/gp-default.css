@@ -1,4 +1,12 @@
-body {}
+body {
+    @apply text-main;
+}
+
+p,
+ul,
+ol {
+    margin-bottom: 1em;
+}
 
 a,
 a:link,
