@@ -22,14 +22,14 @@ module.exports =
     extend: {
       colors: {},
       fontFamily: {
-        'main':             ["'Source Sans Pro'", "'Roboto'", "'Lato'", 'Helvetica', 'Arial', 'sans-serif'],
-        'heading':          ["'Open Sans'", "'Source Sans Pro'", "'Roboto'", "'Lato'", 'Helvetica', 'Arial', 'sans-serif'],
-        'meta':             ["'Source Sans Pro'", "'Roboto'", "'Lato'", 'Helvetica', 'Arial', 'sans-serif'],
+        'main':             ["'Roboto'", "'Source Sans 3'", "'Lato'", 'Helvetica', 'Arial', 'sans-serif'],
+        'heading':          ["'Roboto'", "'Source Sans 3'", "'Lato'", 'Helvetica', 'Arial', 'sans-serif'],
+        'meta':             ["'Roboto'", "'Source Sans 3'", "'Lato'", 'Helvetica', 'Arial', 'sans-serif'],
 
-        'round':            ["'Rubik'", "'Quicksand'", 'Helvetica', 'Arial', 'sans-serif'],
-        'hard':             ["'Open Sans'", "'Source Sans Pro'", "'Roboto'", "'Lato'", 'Helvetica', 'Arial', 'sans-serif'],
-        'serif':            ["'Vollkorn'", "'EB Garamond'", "'Source Serif Pro'", "'PT Serif'", "'Sorts Mill Goudy'", 'Georgia', 'Garamond', 'serif'],
-        'sanserif':         ["'Source Sans Pro'", "'Roboto'", "'Lato'", 'Helvetica', 'Arial', 'sans-serif'],
+        'round':            ["'Open Sans'", "'Rubik'", "'Quicksand'", 'Helvetica', 'Arial', 'sans-serif'],
+        'hard':             ["'Roboto'", "'Source Sans 3'", "'Lato'", 'Helvetica', 'Arial', 'sans-serif'],
+        'serif':            ["'EB Garamond'", "'Vollkorn'", "'Source Serif Pro'", "'PT Serif'", "'Sorts Mill Goudy'", 'Georgia', 'Garamond', 'serif'],
+        'sanserif':         ["'Roboto'", "'Source Sans 3'", "'Lato'", 'Helvetica', 'Arial', 'sans-serif'],
       },
       fontWeight: {
         'main':             '400',

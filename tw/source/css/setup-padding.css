@@ -1,0 +1,479 @@
+.pad-px {
+	@apply p-px;
+}
+.pad-2px {
+	@apply p-2px;
+}
+.pad-5px {
+	@apply p-5px;
+}
+.pad-tiny {
+	@apply p-tiny;
+}
+.pad-smaller {
+	@apply p-smaller;
+}
+.pad-small {
+	@apply p-small;
+}
+.pad-base {
+	@apply p-base;
+}
+.pad-main {
+	@apply p-main;
+}
+.pad {
+	@apply p-main;
+}
+.pad-medium {
+	@apply p-medium;
+}
+.pad-medium2x {
+	@apply p-medium2x;
+}
+.pad-medium3x {
+	@apply p-medium3x;
+}
+.pad-medium4x {
+	@apply p-medium4x;
+}
+.pad-large {
+	@apply p-large;
+}
+.pad-larger {
+	@apply p-larger;
+}
+.pad-largest {
+	@apply p-largest;
+}
+.pad-huge {
+	@apply p-huge;
+}
+.pad-huge2x {
+	@apply p-huge2x;
+}
+.pad-gigantic {
+	@apply p-gigantic;
+}
+
+.padx-px {
+	@apply pr-px;
+	@apply pl-px;
+}
+.padx-2px {
+	@apply pr-2px;
+	@apply pl-2px;
+}
+.padx-5px {
+	@apply pr-5px;
+	@apply pl-5px;
+}
+.padx-tiny {
+	@apply pr-tiny;
+	@apply pl-tiny;
+}
+.padx-smaller {
+	@apply pr-smaller;
+	@apply pl-smaller;
+}
+.padx-small {
+	@apply pr-small;
+	@apply pl-small;
+}
+.padx-base {
+	@apply pr-base;
+	@apply pl-base;
+}
+.padx-main {
+	@apply pr-main;
+	@apply pl-main;
+}
+.padx {
+	@apply pr-medium2x;
+	@apply pl-medium2x;
+}
+.padx-medium {
+	@apply pr-medium;
+	@apply pl-medium;
+}
+.padx-medium2x {
+	@apply pr-medium2x;
+	@apply pl-medium2x;
+}
+.padx-medium3x {
+	@apply pr-medium3x;
+	@apply pl-medium3x;
+}
+.padx-medium4x {
+	@apply pr-medium4x;
+	@apply pl-medium4x;
+}
+.padx-large {
+	@apply pr-large;
+	@apply pl-large;
+}
+.padx-larger {
+	@apply pr-larger;
+	@apply pl-larger;
+}
+.padx-largest {
+	@apply pr-largest;
+	@apply pl-largest;
+}
+.padx-huge {
+	@apply pr-huge;
+	@apply pl-huge;
+}
+.padx-huge2x {
+	@apply pr-huge2x;
+	@apply pl-huge2x;
+}
+.padx-gigantic {
+	@apply pr-gigantic;
+	@apply pl-gigantic;
+}
+
+.pady-px {
+	@apply pt-px;
+	@apply pb-px;
+}
+.pady-2px {
+	@apply pt-2px;
+	@apply pb-2px;
+}
+.pady-5px {
+	@apply pt-5px;
+	@apply pb-5px;
+}
+.pady-tiny {
+	@apply pt-tiny;
+	@apply pb-tiny;
+}
+.pady-smaller {
+	@apply pt-smaller;
+	@apply pb-smaller;
+}
+.pady-small {
+	@apply pt-small;
+	@apply pb-small;
+}
+.pady-base {
+	@apply pt-base;
+	@apply pb-base;
+}
+.pady-main {
+	@apply pt-main;
+	@apply pb-main;
+}
+.pady {
+	@apply pt-medium2x;
+	@apply pb-medium2x;
+}
+.pady-medium {
+	@apply pt-medium;
+	@apply pb-medium;
+}
+.pady-medium2x {
+	@apply pt-medium2x;
+	@apply pb-medium2x;
+}
+.pady-medium3x {
+	@apply pt-medium3x;
+	@apply pb-medium3x;
+}
+.pady-medium4x {
+	@apply pt-medium4x;
+	@apply pb-medium4x;
+}
+.pady-large {
+	@apply pt-large;
+	@apply pb-large;
+}
+.pady-larger {
+	@apply pt-larger;
+	@apply pb-larger;
+}
+.pady-largest {
+	@apply pt-largest;
+	@apply pb-largest;
+}
+.pady-huge {
+	@apply pt-huge;
+	@apply pb-huge;
+}
+.pady-huge2x {
+	@apply pt-huge2x;
+	@apply pb-huge2x;
+}
+.pady-gigantic {
+	@apply pt-gigantic;
+	@apply pb-gigantic;
+}
+
+.padt-px {
+	@apply pt-px;
+}
+.padt-2px {
+	@apply pt-2px;
+}
+.padt-5px {
+	@apply pt-5px;
+}
+.padt-tiny {
+	@apply pt-tiny;
+}
+.padt-smaller {
+	@apply pt-smaller;
+}
+.padt-small {
+	@apply pt-small;
+}
+.padt-base {
+	@apply pt-base;
+}
+.padt-main {
+	@apply pt-main;
+}
+.padt {
+	@apply pt-medium2x;
+}
+.padt-medium {
+	@apply pt-medium;
+}
+.padt-medium2x {
+	@apply pt-medium2x;
+}
+.padt-medium3x {
+	@apply pt-medium3x;
+}
+.padt-medium4x {
+	@apply pt-medium4x;
+}
+.padt-large {
+	@apply pt-large;
+}
+.padt-larger {
+	@apply pt-larger;
+}
+.padt-largest {
+	@apply pt-largest;
+}
+.padt-huge {
+	@apply pt-huge;
+}
+.padt-huge2x {
+	@apply pt-huge2x;
+}
+.padt-gigantic {
+	@apply pt-gigantic;
+}
+
+.padr-px {
+	@apply pr-px;
+}
+.padr-2px {
+	@apply pr-2px;
+}
+.padr-5px {
+	@apply pr-5px;
+}
+.padr-tiny {
+	@apply pr-tiny;
+}
+.padr-smaller {
+	@apply pr-smaller;
+}
+.padr-small {
+	@apply pr-small;
+}
+.padr-base {
+	@apply pr-base;
+}
+.padr-main {
+	@apply pr-main;
+}
+.padr {
+	@apply pr-medium2x;
+}
+.padr-medium {
+	@apply pr-medium;
+}
+.padr-medium2x {
+	@apply pr-medium2x;
+}
+.padr-medium3x {
+	@apply pr-medium3x;
+}
+.padr-medium4x {
+	@apply pr-medium4x;
+}
+.padr-large {
+	@apply pr-large;
+}
+.padr-larger {
+	@apply pr-larger;
+}
+.padr-largest {
+	@apply pr-largest;
+}
+.padr-huge {
+	@apply pr-huge;
+}
+.padr-huge2x {
+	@apply pr-huge2x;
+}
+.padr-gigantic {
+	@apply pr-gigantic;
+}
+
+.padb-px {
+	@apply pb-px;
+}
+.padb-2px {
+	@apply pb-2px;
+}
+.padb-5px {
+	@apply pb-5px;
+}
+.padb-tiny {
+	@apply pb-tiny;
+}
+.padb-smaller {
+	@apply pb-smaller;
+}
+.padb-small {
+	@apply pb-small;
+}
+.padb-base {
+	@apply pb-base;
+}
+.padb-main {
+	@apply pb-main;
+}
+.padb {
+	@apply pb-medium2x;
+}
+.padb-medium {
+	@apply pb-medium;
+}
+.padb-medium2x {
+	@apply pb-medium2x;
+}
+.padb-medium3x {
+	@apply pb-medium3x;
+}
+.padb-medium4x {
+	@apply pb-medium4x;
+}
+.padb-large {
+	@apply pb-large;
+}
+.padb-larger {
+	@apply pb-larger;
+}
+.padb-largest {
+	@apply pb-largest;
+}
+.padb-huge {
+	@apply pb-huge;
+}
+.padb-huge2x {
+	@apply pb-huge2x;
+}
+.padb-gigantic {
+	@apply pb-gigantic;
+}
+
+.padl-px {
+	@apply pl-px;
+}
+.padl-2px {
+	@apply pl-2px;
+}
+.padl-5px {
+	@apply pl-5px;
+}
+.padl-tiny {
+	@apply pl-tiny;
+}
+.padl-smaller {
+	@apply pl-smaller;
+}
+.padl-small {
+	@apply pl-small;
+}
+.padl-base {
+	@apply pl-base;
+}
+.padl-main {
+	@apply pl-main;
+}
+.padl {
+	@apply pl-medium2x;
+}
+.padl-medium {
+	@apply pl-medium;
+}
+.padl-medium2x {
+	@apply pl-medium2x;
+}
+.padl-medium3x {
+	@apply pl-medium3x;
+}
+.padl-medium4x {
+	@apply pl-medium4x;
+}
+.padl-large {
+	@apply pl-large;
+}
+.padl-larger {
+	@apply pl-larger;
+}
+.padl-largest {
+	@apply pl-largest;
+}
+.padl-huge {
+	@apply pl-huge;
+}
+.padl-huge2x {
+	@apply pl-huge2x;
+}
+.padl-gigantic {
+	@apply pl-gigantic;
+}
+
+.group-nopad.wp-block-group > .wp-block-group__inner-container,
+.group-nopad.gb-container > .gb-inside-container,
+.nopad,
+.pad-zero,
+.pad-none {
+	@apply p-0;
+}
+.group-nopadt.wp-block-group > .wp-block-group__inner-container,
+.group-nopad.gb-container > .gb-inside-container,
+.nopadt,
+.padt-zero,
+.padt-none {
+	@apply pt-0;
+}
+.group-nopadr.wp-block-group > .wp-block-group__inner-container,
+.group-nopad.gb-container > .gb-inside-container,
+.nopadr,
+.padr-zero,
+.padr-none {
+	@apply pr-0;
+}
+.group-nopad.wp-block-group > .wp-block-group__inner-container,
+.group-nopad.gb-container > .gb-inside-container,
+.nopadb,
+.padb-zero,
+.padb-none {
+	@apply pb-0;
+}
+.group-nopadl.wp-block-group > .wp-block-group__inner-container,
+.group-nopad.gb-container > .gb-inside-container,
+.nopadl,
+.padl-zero,
+.padl-none {
+	@apply pl-0;
+}

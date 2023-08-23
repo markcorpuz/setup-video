@@ -1,0 +1,65 @@
+.lead-intro {
+	@apply mt-medium4x;
+}
+
+.lead-px {
+	@apply mt-px;
+}
+.lead-2px {
+	@apply mt-2px;
+}
+.lead-5px {
+	@apply mt-5px;
+}
+.lead-tiny {
+	@apply mt-tiny;
+}
+.lead-smaller {
+	@apply mt-smaller;
+}
+.lead-small {
+	@apply mt-small;
+}
+.lead-base {
+	@apply mt-base;
+}
+.lead-main {
+	@apply mt-main;
+}
+.lead {
+	@apply mt-medium2x;
+}
+.lead-medium {
+	@apply mt-medium;
+}
+.lead-medium2x {
+	@apply mt-medium2x;
+}
+.lead-medium3x {
+	@apply mt-medium3x;
+}
+.lead-medium4x {
+	@apply mt-medium4x;
+}
+.lead-large {
+	@apply mt-large;
+}
+.lead-larger {
+	@apply mt-larger;
+}
+.lead-largest {
+	@apply mt-largest;
+}
+.lead-huge {
+	@apply mt-huge;
+}
+.lead-huge2x {
+	@apply mt-huge2x;
+}
+.lead-gigantic {
+	@apply mt-gigantic;
+}
+
+.nolead {
+	@apply mt-0;
+}

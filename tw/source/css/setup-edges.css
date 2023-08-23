@@ -1,0 +1,141 @@
+.edges-right-top {
+	@apply 
+		pt-edges mediumxscreen:pt-zero
+		mediumxscreen:pr-edges;
+}
+
+.edges-right-bottom {
+	@apply 
+		pb-edges mediumxscreen:pb-zero
+		mediumxscreen:pr-edges;
+}
+
+.edges-left-top {
+	@apply 
+		pt-edges mediumxscreen:pt-zero
+		mediumxscreen:pl-edges;
+}
+
+.edges-left-bottom {
+	@apply 
+		pb-edges mediumxscreen:pb-zero
+		mediumxscreen:pl-edges;
+}
+
+.edges {
+	@apply p-edges;
+}
+
+.edges-tiny {
+	@apply p-tiny;
+}
+
+.edges-small {
+	@apply p-small;
+}
+
+.edges-medium {
+	@apply p-medium;
+}
+
+.edges-large {
+	@apply 
+		pt-edges largexscreen:pt-large
+		pr-edges
+		pb-edges largexscreen:pb-large
+		pl-edges;
+}
+
+.edges-larger {
+	@apply 
+		pt-edges mediumxscreen:pt-large largexscreen:pt-larger
+		pr-edges
+		pb-edges mediumxscreen:pb-large largexscreen:pb-larger
+		pl-edges;
+}
+
+.edges-largest {
+	@apply 
+		pt-edges smallscreen:pt-large mediumxscreen:pt-larger largexscreen:pt-largest
+		pr-edges
+		pb-edges smallscreen:pb-large mediumxscreen:pb-larger largexscreen:pb-largest
+		pl-edges;
+}
+
+.edges-huge {
+	@apply 
+		pt-edges smallscreen:pt-larger mediumxscreen:pt-largest largexscreen:pt-huge
+		pr-edges
+		pb-edges smallscreen:pb-larger mediumxscreen:pb-largest largexscreen:pb-huge
+		pl-edges;
+}
+
+.edges-huge2x {
+	@apply 
+		pt-edges smallscreen:pt-largest mediumxscreen:pt-huge largexscreen:pt-huge2x
+		pr-edges
+		pb-edges smallscreen:pb-largest mediumxscreen:pb-huge largexscreen:pb-huge2x
+		pl-edges;
+}
+
+.edges-gigantic {
+	@apply 
+		pt-edges smallscreen:pt-huge mediumxscreen:pt-huge2x largexscreen:pt-gigantic
+		pr-edges
+		pb-edges smallscreen:pb-huge mediumxscreen:pb-huge2x largexscreen:pb-gigantic
+		pl-edges;
+}
+
+.edges.noedge-vertical,
+.edges-tiny.noedge-vertical,
+.edges-small.noedge-vertical,
+.edges-medium.noedge-vertical,
+.edges-large.noedge-vertical,
+.edges-larger.noedge-vertical,
+.edges-largest.noedge-vertical,
+.edges-huge.noedge-vertical,
+.edges-huge2x.noedge-vertical,
+.edges-gigantic.noedge-vertical {
+	@apply pt-0;
+	@apply pb-0;
+}
+
+.edges.noedge-horizontal,
+.edges-tiny.noedge-horizontal,
+.edges-small.noedge-horizontal,
+.edges-medium.noedge-horizontal,
+.edges-large.noedge-horizontal,
+.edges-larger.noedge-horizontal,
+.edges-largest.noedge-horizontal,
+.edges-huge.noedge-horizontal,
+.edges-huge2x.noedge-horizontal,
+.edges-gigantic.noedge-horizontal {
+	@apply pr-0;
+	@apply pl-0;
+}
+
+.edges.noedge-top,
+.edges-tiny.noedge-top,
+.edges-small.noedge-top,
+.edges-medium.noedge-top,
+.edges-large.noedge-top,
+.edges-larger.noedge-top,
+.edges-largest.noedge-top,
+.edges-huge.noedge-top,
+.edges-huge2x.noedge-top,
+.edges-gigantic.noedge-top {
+	@apply pt-0;
+}
+
+.edges.noedge-bottom,
+.edges-tiny.noedge-bottom,
+.edges-small.noedge-bottom,
+.edges-medium.noedge-bottom,
+.edges-large.noedge-bottom,
+.edges-larger.noedge-bottom,
+.edges-largest.noedge-bottom,
+.edges-huge.noedge-bottom,
+.edges-huge2x.noedge-bottom,
+.edges-gigantic.noedge-bottom {
+	@apply pb-0;
+}

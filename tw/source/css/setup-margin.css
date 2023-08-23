@@ -1,0 +1,193 @@
+.margin-px {
+	@apply m-px;
+}
+.margin-2px {
+	@apply m-2px;
+}
+.margin-5px {
+	@apply m-5px;
+}
+.margin-tiny {
+	@apply m-tiny;
+}
+.margin-smaller {
+	@apply m-smaller;
+}
+.margin-small {
+	@apply m-small;
+}
+.margin-base {
+	@apply m-base;
+}
+.margin-main {
+	@apply m-main;
+}
+.margin {
+	@apply m-medium2x;
+}
+.margin-medium {
+	@apply m-medium;
+}
+.margin-medium2x {
+	@apply m-medium2x;
+}
+.margin-medium3x {
+	@apply m-medium3x;
+}
+.margin-medium4x {
+	@apply m-medium4x;
+}
+.margin-large {
+	@apply m-large;
+}
+.margin-larger {
+	@apply m-larger;
+}
+.margin-largest {
+	@apply m-largest;
+}
+.margin-huge {
+	@apply m-huge;
+}
+.margin-huge2x {
+	@apply m-huge2x;
+}
+.margin-gigantic {
+	@apply m-gigantic;
+}
+
+.margint-px {
+	@apply mt-px;
+}
+.margint-2px {
+	@apply mt-2px;
+}
+.margint-5px {
+	@apply mt-5px;
+}
+.margint-tiny {
+	@apply mt-tiny;
+}
+.margint-smaller {
+	@apply mt-smaller;
+}
+.margint-small {
+	@apply mt-small;
+}
+.margint-base {
+	@apply mt-base;
+}
+.margint-main {
+	@apply mt-main;
+}
+.margint {
+	@apply mt-medium2x;
+}
+.margint-medium {
+	@apply mt-medium;
+}
+.margint-medium2x {
+	@apply mt-medium2x;
+}
+.margint-medium3x {
+	@apply mt-medium3x;
+}
+.margint-medium4x {
+	@apply mt-medium4x;
+}
+.margint-large {
+	@apply mt-large;
+}
+.margint-larger {
+	@apply mt-larger;
+}
+.margint-largest {
+	@apply mt-largest;
+}
+.margint-huge {
+	@apply mt-huge;
+}
+.margint-huge2x {
+	@apply mt-huge2x;
+}
+.margint-gigantic {
+	@apply mt-gigantic;
+}
+.marginb-px {
+	@apply mb-px;
+}
+.marginb-2px {
+	@apply mb-2px;
+}
+.marginb-5px {
+	@apply mb-5px;
+}
+.marginb-tiny {
+	@apply mb-tiny;
+}
+.marginb-smaller {
+	@apply mb-smaller;
+}
+.marginb-small {
+	@apply mb-small;
+}
+.marginb-base {
+	@apply mb-base;
+}
+.marginb-main {
+	@apply mb-main;
+}
+.marginb {
+	@apply mb-medium2x;
+}
+.marginb-medium {
+	@apply mb-medium;
+}
+.marginb-medium2x {
+	@apply mb-medium2x;
+}
+.marginb-medium3x {
+	@apply mb-medium3x;
+}
+.marginb-medium4x {
+	@apply mb-medium4x;
+}
+.marginb-large {
+	@apply mb-large;
+}
+.marginb-larger {
+	@apply mb-larger;
+}
+.marginb-largest {
+	@apply mb-largest;
+}
+.marginb-huge {
+	@apply mb-huge;
+}
+.marginb-huge2x {
+	@apply mb-huge2x;
+}
+.marginb-gigantic {
+	@apply mb-gigantic;
+}
+
+body .nom,
+body .nomargin {
+	@apply m-0;
+}
+body .nomt,
+body .nomargin-top {
+	@apply mt-0;
+}
+body .nomr,
+body .nomargin-right {
+	@apply mr-0;
+}
+body .nomb,
+body .nomargin-bottom {
+	@apply mb-0;
+}
+body .noml,
+body .nomargin-left {
+	@apply ml-0;
+}

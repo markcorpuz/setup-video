@@ -101,3 +101,16 @@ add_filter( 'option_generate_settings', function( $settings ) {
 
     return $settings;
 } );
+
+// SETUP-GP - Add custom body class defined by acf field
+// https://wpdevdesign.com/how-to-add-custom-body-classes-to-pages-in-wordpress/
+add_filter( 'body_class', 'custom_body_class' );
+function custom_body_class( array $classes ) {
+    $body_class = is_singular() ? get_post_meta( get_the_ID(), 'css_body', true ) : null;
+
+    if ( $body_class ) {
+        $classes[] = $body_class;
+    } else {}
+
+    return $classes;
+}

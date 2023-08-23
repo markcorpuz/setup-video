@@ -1,0 +1,302 @@
+.multiset {
+	@apply 
+		text-medium largexscreen:text-medium2x
+		font-normal;
+}
+	.multiset.level1,
+	.multiset.level1 p,
+	.multiset.level1 ul,
+	.multiset.level1 ol,
+	.multiset p.level1,
+	.multiset ul.level1,
+	.multiset ol.level1 {
+		@apply 
+			text-medium largexscreen:text-medium2x;
+	}
+	.multiset.level2,
+	.multiset.level2 p,
+	.multiset.level2 ul,
+	.multiset.level2 ol,
+	.multiset p.level2,
+	.multiset ul.level2,
+	.multiset ol.level2 {
+		@apply 
+			text-medium largexscreen:text-medium2x;
+	}
+	.multiset.level3,
+	.multiset.level3 p,
+	.multiset.level3 ul,
+	.multiset.level3 ol,
+	.multiset p.level3,
+	.multiset ul.level3,
+	.multiset ol.level3 {
+		@apply 
+			text-main largexscreen:text-medium;
+	}
+	.multiset.level4,
+	.multiset.level4 p,
+	.multiset.level4 ul,
+	.multiset.level4 ol,
+	.multiset p.level4,
+	.multiset ul.level4,
+	.multiset ol.level4 {
+		@apply 
+			text-base largexscreen:text-main
+			mb-small largexscreen:mb-small;
+	}
+	.multiset.level5,
+	.multiset.level5 p,
+	.multiset.level5 ul,
+	.multiset.level5 ol,
+	.multiset p.level5,
+	.multiset ul.level5,
+	.multiset ol.level5 {
+		@apply 
+			text-small largexscreen:text-main
+			mb-small largexscreen:mb-small;
+	}
+
+.multiset ul.list,
+.multiset ol.list,
+.multiset ul.list.level1,
+.multiset ol.list.level1 {
+	@apply 
+		ml-0
+		pl-medium largexscreen:pl-medium3x;
+	list-style-position: outside;
+	margin-bottom: 1em;
+}
+.multiset ul.list {
+	list-style-type: disc;
+}
+.multiset ol.list {
+	list-style-type: decimal;
+}
+	.multiset.level1 ul.list,
+	.multiset.level1 ol.list,
+	.multiset ul.list.level1,
+	.multiset ol.list.level1 {
+		@apply 
+			pl-medium largexscreen:pl-medium3x;
+	}
+	.multiset.level2 ul.list,
+	.multiset.level2 ol.list,
+	.multiset ul.list.level2,
+	.multiset ol.list.level2 {
+		@apply 
+			pl-medium largexscreen:pl-medium2x;
+	}
+	.multiset.level3 ul.list,
+	.multiset.level3 ol.list,
+	.multiset ul.list.level3,
+	.multiset ol.list.level3 {
+		@apply 
+			pl-main largexscreen:pl-medium;
+	}
+	.multiset.level4 ul.list,
+	.multiset.level4 ol.list,
+	.multiset ul.list.level4,
+	.multiset ol.list.level4 {
+		@apply 
+			pl-main largexscreen:pl-main;
+	}
+	.multiset.level5 ul.list,
+	.multiset.level5 ol.list,
+	.multiset ul.list.level5,
+	.multiset ol.list.level5 {
+		@apply 
+			pl-main largexscreen:pl-main;
+	}
+
+.multiset .overhead,
+.multiset .level1.overhead {
+	@apply 
+		text-medium largexscreen:text-medium3x
+		font-bold;
+}
+
+	.multiset.level1 .overhead,
+	.multiset .level1.overhead {
+		@apply 
+			text-medium largexscreen:text-medium3x;
+	}
+	.multiset.level2 .overhead,
+	.multiset .level2.overhead {
+		@apply 
+			text-medium largexscreen:text-medium2x;
+	}
+	.multiset.level3 .overhead,
+	.multiset .level3.overhead {
+		@apply 
+			text-main largexscreen:text-medium;
+	}
+	.multiset.level4 .overhead,
+	.multiset .level4.overhead {
+		@apply 
+			text-main largexscreen:text-main;
+	}
+	.multiset.level5 .overhead,
+	.multiset .level5.overhead {
+		@apply 
+			text-small largexscreen:text-small;
+	}
+
+.multiset .maintitle,
+.multiset .level1.maintitle {
+	@apply 
+		text-larger smallscreen:text-larger mediumxscreen:text-largest largexscreen:text-largest 
+		font-bold;
+}
+
+	.multiset.level1 .maintitle,
+	.multiset .level1.maintitle {
+		@apply 
+			text-larger smallscreen:text-larger mediumxscreen:text-largest largexscreen:text-largest;
+	}
+	.multiset.level2 .maintitle,
+	.multiset .level2.maintitle {
+		@apply 
+			text-large smallscreen:text-large mediumxscreen:text-larger largexscreen:text-larger;
+	}
+	.multiset.level3 .maintitle,
+	.multiset .level3.maintitle {
+		@apply 
+			text-medium4x smallscreen:text-medium4x mediumxscreen:text-large largexscreen:text-large;
+	}
+	.multiset.level4 .maintitle,
+	.multiset .level4.maintitle {
+		@apply 
+			text-medium2x smallscreen:text-medium2x mediumxscreen:text-medium3x largexscreen:text-medium3x;
+	}
+	.multiset.level5 .maintitle,
+	.multiset .level5.maintitle {
+		@apply 
+			text-medium smallscreen:text-medium mediumxscreen:text-medium2x largexscreen:text-medium2x;
+	}
+
+.multiset .subtitle,
+.multiset .level1.subtitle {
+	@apply 
+		text-medium3x smallscreen:text-medium3x mediumxscreen:text-large largexscreen:text-large
+		font-medium;
+}
+
+	.multiset.level1 .subtitle,
+	.multiset .level1.subtitle {
+		@apply 
+			text-medium3x smallscreen:text-medium3x mediumxscreen:text-large largexscreen:text-large;
+	}
+	.multiset.level2 .subtitle,
+	.multiset .level2.subtitle {
+		@apply 
+			text-medium2x smallscreen:text-medium2x mediumxscreen:text-medium4x largexscreen:text-medium4x;
+	}
+	.multiset.level3 .subtitle,
+	.multiset .level3.subtitle {
+		@apply 
+			text-medium smallscreen:text-medium mediumxscreen:text-medium3x largexscreen:text-medium3x;
+	}
+	.multiset.level4 .subtitle,
+	.multiset .level4.subtitle {
+		@apply 
+			text-medium smallscreen:text-medium mediumxscreen:text-medium2x largexscreen:text-medium2x;
+	}
+	.multiset.level5 .subtitle,
+	.multiset .level5.subtitle {
+		@apply 
+			text-main smallscreen:text-main mediumxscreen:text-medium largexscreen:text-medium;
+	}
+
+.multiset .meta {
+	@apply 
+		text-small largexscreen:text-small
+		font-medium;
+}
+
+.multiset .cta.gb-button {
+	@apply 
+		text-medium largexscreen:text-medium2x
+		font-bold
+		px-[1.2em] py-[0.5em];
+}
+
+	.multiset.level1 .cta.gb-button,
+	.multiset .level1.cta.gb-button {
+		@apply 
+			text-medium largexscreen:text-medium2x
+			px-[1.2em] py-[0.5em];
+	}
+	.multiset.level2 .cta.gb-button,
+	.multiset .level2.cta.gb-button {
+		@apply 
+			text-main largexscreen:text-medium
+			px-[1.1em] py-[0.4em];
+	}
+	.multiset.level3 .cta.gb-button,
+	.multiset .level3.cta.gb-button {
+		@apply 
+			text-main largexscreen:text-medium
+			px-[1em] py-[0.2em];
+	}
+	.multiset.level4 .cta.gb-button,
+	.multiset .level4.cta.gb-button {
+		@apply 
+			text-main largexscreen:text-main
+			px-[1em] py-[0.2em];
+	}
+	.multiset.level5 .cta.gb-button,
+	.multiset .level5.cta.gb-button {
+		@apply 
+			text-small largexscreen:text-small
+			px-[1em] py-[0.4em];
+	}
+
+
+.multiset .cta.gb-button, 
+.multiset a.cta.gb-button, 
+.multiset a.cta.gb-button:link, 
+.multiset a.cta.gb-button:visited, 
+.multiset span.cta.gb-button, 
+.multiset span.cta.gb-button:link, 
+.multiset span.cta.gb-button:visited {
+	color: var(--white);
+} 
+.multiset a.cta.gb-button:hover, 
+.multiset a.cta.gb-button:active, 
+.multiset span.cta.gb-button:hover, 
+.multiset span.cta.gb-button:active {
+	color: var(--white);
+}
+
+
+.multiset .summary {
+	@apply 
+		text-medium largexscreen:text-medium3x
+		font-normal largexscreen:font-light;
+}
+
+	.multiset.level1 .summary,
+	.multiset .level1.summary {
+		@apply 
+			text-medium largexscreen:text-medium2x;
+	}
+	.multiset.level2 .summary,
+	.multiset .level2.summary {
+		@apply 
+			text-medium largexscreen:text-medium2x;
+	}
+	.multiset.level3 .summary,
+	.multiset .level3.summary {
+		@apply 
+			text-main largexscreen:text-medium;
+	}
+	.multiset.level4 .summary,
+	.multiset .level4.summary {
+		@apply 
+			text-main largexscreen:text-main;
+	}
+	.multiset.level5 .summary,
+	.multiset .level5.summary {
+		@apply 
+			text-main largexscreen:text-main;
+	}
